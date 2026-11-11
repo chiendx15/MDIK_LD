@@ -1,0 +1,10 @@
+INDEX,No.,Sub-No.,NAME,Type,X,Y,OX,OY,Angle
+0,32,,Sensor2,3: EMO,200,100,,,
+1,33,,Sensor3,3: EMO,300,50,,,
+2,35,,Sensor5,3: EMO,200,265,,,
+3,36,,Sensor6,3: EMO,300,320,,,
+4,54,53,Sensor9,5: LightCurtain,200,182.5,,,
+5,102,99,Sensor10,2: DoorKey,350,320,,,
+6,101,98,Sensor11,2: DoorKey,350,50,,,180
+7,34,,Sensor12,3: EMO,500,50,,,
+8,37,,Sensor13,3: EMO,500,320,,,

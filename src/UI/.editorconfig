@@ -1,0 +1,13 @@
+﻿# Rules in this file were initially inferred by Visual Studio IntelliCode from the LineScan\ codebase based on best match to current usage at 2020-12-19
+# You can modify the rules from these initially generated values to suit your own policies
+# You can learn more about editorconfig here: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
+[*]
+
+# 한글 주석때문에 기본 utf-8-bom 지정.
+charset = utf-8-bom
+
+# 들여쓰기 tab으로 할지 space로 할지.
+indent_style = tab
+# 얼마나 들여쓸지.
+indent_size = 4
+

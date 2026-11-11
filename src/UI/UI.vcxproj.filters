@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. MFC_Framework">
+      <UniqueIdentifier>{b7540512-8b30-4624-87da-7cbb08cf8e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. 참조파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="3. 공유메모리">
+      <UniqueIdentifier>{33023afa-5077-4118-9f8b-58e2ccf7f09d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface">
+      <UniqueIdentifier>{0e485571-a226-437e-add8-3bea9e59e46f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface\Main">
+      <UniqueIdentifier>{75e418a9-0d5f-4630-8c53-29f2f1e37ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface\Menu">
+      <UniqueIdentifier>{d52fcb52-77af-4b64-a363-0c5e4b6a4396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. 리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="4. UserInterface\Menu\2.Recipe">
+      <UniqueIdentifier>{de5a0268-6dca-4a8a-8778-daf35f9c2e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface\Menu\5.Parameter">
+      <UniqueIdentifier>{8ec0fea8-ed32-47d1-b439-5c8aaf5d2656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface\Menu\3.Maintenance">
+      <UniqueIdentifier>{fe9ae4e0-0278-45d7-bbb7-fb044edf8af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface\Menu\1.ManualControl">
+      <UniqueIdentifier>{9f644c30-92d0-4ef9-903b-f3bce70a1cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface\Menu\5.Parameter\DeviceParameter">
+      <UniqueIdentifier>{1450c21b-d60e-4303-8d1d-05c03e2d7c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface\Menu\5.Parameter\PositionParameter">
+      <UniqueIdentifier>{a910442f-e5ca-445b-93d9-f7cf6cef4433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface\Main\Simulator">
+      <UniqueIdentifier>{64e58e20-1494-4231-ac24-c8b77d2fbc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface\Main\MainStatus">
+      <UniqueIdentifier>{87728e65-cf1e-46ff-a5d3-888a5d6aa10a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface\Menu\6.Log">
+      <UniqueIdentifier>{e21c5050-fd79-4b1d-963b-1b448975b1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. IPCommand">
+      <UniqueIdentifier>{874663cc-ab06-424f-a99b-cf089a5e7262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserInterface\Menu\7.User">
+      <UniqueIdentifier>{8de43062-6dad-4379-a918-89647f666505}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrame.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\TitleWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\MainMenuWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\SubMenuWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\ExitWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\MainStatusWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Parameter\DeviceParameterWnd.h">
+      <Filter>4. UserInterface\Menu\5.Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Parameter\MotorParameterWnd.h">
+      <Filter>4. UserInterface\Menu\5.Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\LogInWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\SharedMemory.h">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Online.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\PLCStatus.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Sequence.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Inline.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Mocha.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Mocha.type.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\IOStatusWnd.h">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\MCMonitorWnd.h">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\AirPressureWnd.h">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\MCCWnd.h">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Recipe\RecipeEditWnd.h">
+      <Filter>4. UserInterface\Menu\2.Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Recipe\RecipeSelectWnd.h">
+      <Filter>4. UserInterface\Menu\2.Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawControlTestWnd.h">
+      <Filter>4. UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\MotorInfos.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Recipe.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RecipeData.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DrawControl.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Parameter\PositionParameterWnd.h">
+      <Filter>4. UserInterface\Menu\5.Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\Simulator\DemoWnd.h">
+      <Filter>4. UserInterface\Main\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\Simulator\Simulator.h">
+      <Filter>4. UserInterface\Main\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\MainStatus\ModuleStatusWnd.h">
+      <Filter>4. UserInterface\Main\MainStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\DeviceParameter.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\MainStatus\NumericKeypadWnd.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\GlassEmissionsWnd.h">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Parameter\MotorControl.h">
+      <Filter>4. UserInterface\Menu\5.Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Manual\TeachModeConveyorWnd.h">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Parameter\ConveyorParameterWnd.h">
+      <Filter>4. UserInterface\Menu\5.Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Manual\IOControl.h">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Manual\TransferThetaMoveWnd.h">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\AlarmLogWnd.h">
+      <Filter>4. UserInterface\Menu\6.Log</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\ButtonLogWnd.h">
+      <Filter>4. UserInterface\Menu\6.Log</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\ParameterChangeLogWnd.h">
+      <Filter>4. UserInterface\Menu\6.Log</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\RecipeChangeLogWnd.h">
+      <Filter>4. UserInterface\Menu\6.Log</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\SequenceStepWnd.h">
+      <Filter>4. UserInterface\Menu\6.Log</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Parameter\PositionParameter\Glass_load_trasnfer.h">
+      <Filter>4. UserInterface\Menu\5.Parameter\PositionParameter</Filter>
+    </ClInclude>
+    <ClInclude Include="IPCommand\IPCommandWnd.h">
+      <Filter>5. IPCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\RegisterViewer.h">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClInclude>
+    <ClInclude Include="IPCommand\CIMIPCommandWnd.h">
+      <Filter>5. IPCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Option.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\PMWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Parameter\DeviceParameter\DeviceParameterDefaultWnd.h">
+      <Filter>4. UserInterface\Menu\5.Parameter\DeviceParameter</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeParamDlg.h">
+      <Filter>4. UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Manual\PPBOXCodeReaderWnd.h">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\PassWordWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\MainStatus\ScrapeWnd.h">
+      <Filter>4. UserInterface\Main\MainStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\AutoRunCheckerWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\ProgramConnectionCheckerWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\TerminalMessageWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CBSpeedListCtrl.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\PPBoxWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\User\UserAddWnd.h">
+      <Filter>4. UserInterface\Menu\7.User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\User\UserManager.h">
+      <Filter>4. UserInterface\Menu\7.User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\User\UserManagerWnd.h">
+      <Filter>4. UserInterface\Menu\7.User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\User\UserModifyWnd.h">
+      <Filter>4. UserInterface\Menu\7.User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\MainStatus\InsertMaterialListWnd.h">
+      <Filter>4. UserInterface\Main\MainStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Manual\TeachMoveWnd.h">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\GlassEmissions.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Parameter\ConveyorControl.h">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\AGVPIOStatusWnd.h">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\StringTable\StringTable_IO_1_LD.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\IOInfo_1_LD.hxx">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Parameter\PositionParameter\PPBox_EV.h">
+      <Filter>4. UserInterface\Menu\5.Parameter\PositionParameter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SharedFunctionLoader.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SharedFunction.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\ConveyorInfos.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\PopupMapWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\ConveyorMonitorWnd.h">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SharedFunctionCIM.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Online.hpp">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\InterlockMessageWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\OPCallMessageWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MoveButtonStatus.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Manual\CIMTestWnd.h">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\TPMCodeSelectWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu\Maintenance\DustCollectorWnd.h">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\MessageHistoryWnd.h">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>1. MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>1. MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>1. MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\TitleWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\MainMenuWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\SubMenuWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\ExitWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\MainStatusWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Parameter\DeviceParameterWnd.cpp">
+      <Filter>4. UserInterface\Menu\5.Parameter</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Parameter\MotorParameterWnd.cpp">
+      <Filter>4. UserInterface\Menu\5.Parameter</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\LogInWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Online.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\PLCStatus.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Sequence.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Inline.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Mocha.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\IOStatusWnd.cpp">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\MCMonitorWnd.cpp">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\MCCWnd.cpp">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\AirPressureWnd.cpp">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Recipe\RecipeEditWnd.cpp">
+      <Filter>4. UserInterface\Menu\2.Recipe</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Recipe\RecipeSelectWnd.cpp">
+      <Filter>4. UserInterface\Menu\2.Recipe</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawControlTestWnd.cpp">
+      <Filter>4. UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\MotorInfos.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\DrawControl.cpp">
+      <Filter>2. 참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Parameter\PositionParameterWnd.cpp">
+      <Filter>4. UserInterface\Menu\5.Parameter</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\Simulator\DemoWnd.cpp">
+      <Filter>4. UserInterface\Main\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\Simulator\Simulator.cpp">
+      <Filter>4. UserInterface\Main\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\MainStatus\ModuleStatusWnd.cpp">
+      <Filter>4. UserInterface\Main\MainStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\MotorPosition.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\DeviceParameter.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\MainStatus\NumericKeypadWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\GlassEmissionsWnd.cpp">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Parameter\MotorControl.cpp">
+      <Filter>4. UserInterface\Menu\5.Parameter</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Manual\TeachModeConveyorWnd.cpp">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Parameter\ConveyorParameterWnd.cpp">
+      <Filter>4. UserInterface\Menu\5.Parameter</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Manual\IOControl.cpp">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Manual\TransferThetaMoveWnd.cpp">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\AlarmLogWnd.cpp">
+      <Filter>4. UserInterface\Menu\6.Log</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\ButtonLogWnd.cpp">
+      <Filter>4. UserInterface\Menu\6.Log</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\ParameterChangeLogWnd.cpp">
+      <Filter>4. UserInterface\Menu\6.Log</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\RecipeChangeLogWnd.cpp">
+      <Filter>4. UserInterface\Menu\6.Log</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\SequenceStepWnd.cpp">
+      <Filter>4. UserInterface\Menu\6.Log</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Parameter\PositionParameter\Glass_load_trasnfer.cpp">
+      <Filter>4. UserInterface\Menu\5.Parameter\PositionParameter</Filter>
+    </ClCompile>
+    <ClCompile Include="IPCommand\IPCommandWnd.cpp">
+      <Filter>5. IPCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\RegisterViewer.cpp">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClCompile>
+    <ClCompile Include="IPCommand\CIMIPCommandWnd.cpp">
+      <Filter>5. IPCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Option.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\PMWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Parameter\DeviceParameter\DeviceParameterDefaultWnd.cpp">
+      <Filter>4. UserInterface\Menu\5.Parameter\DeviceParameter</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeParamDlg.cpp">
+      <Filter>4. UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Manual\PPBOXCodeReaderWnd.cpp">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\PassWordWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\MainStatus\ScrapeWnd.cpp">
+      <Filter>4. UserInterface\Main\MainStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\AutoRunCheckerWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\ProgramConnectionCheckerWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\TerminalMessageWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\CBSpeedListCtrl.cpp">
+      <Filter>2. 참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\PPBoxWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\User\UserAddWnd.cpp">
+      <Filter>4. UserInterface\Menu\7.User</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\User\UserManager.cpp">
+      <Filter>4. UserInterface\Menu\7.User</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\User\UserManagerWnd.cpp">
+      <Filter>4. UserInterface\Menu\7.User</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\User\UserModifyWnd.cpp">
+      <Filter>4. UserInterface\Menu\7.User</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\MainStatus\InsertMaterialListWnd.cpp">
+      <Filter>4. UserInterface\Main\MainStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Manual\TeachMoveWnd.cpp">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\GlassEmissions.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Parameter\ConveyorControl.cpp">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\AGVPIOStatusWnd.cpp">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Parameter\PositionParameter\PPBox_EV.cpp">
+      <Filter>4. UserInterface\Menu\5.Parameter\PositionParameter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SharedFunctionLoader.cpp">
+      <Filter>2. 참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SharedFunction.cpp">
+      <Filter>2. 참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\ConveyorInfos.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\PopupMapWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\ConveyorMonitorWnd.cpp">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SharedFunctionCIM.cpp">
+      <Filter>2. 참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\InterlockMessageWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\OPCallMessageWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\MoveButtonStatus.cpp">
+      <Filter>2. 참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Manual\CIMTestWnd.cpp">
+      <Filter>4. UserInterface\Menu\1.ManualControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\TPMCodeSelectWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu\Maintenance\DustCollectorWnd.cpp">
+      <Filter>4. UserInterface\Menu\3.Maintenance</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\MessageHistoryWnd.cpp">
+      <Filter>4. UserInterface\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UI.rc">
+      <Filter>0. 리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\userimages.bmp">
+      <Filter>0. 리소스 파일</Filter>
+    </Image>
+    <Image Include="res\UIDoc.ico">
+      <Filter>0. 리소스 파일</Filter>
+    </Image>
+    <Image Include="res\UI.ico">
+      <Filter>0. 리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>0. 리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>0. 리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\UI.rc2">
+      <Filter>0. 리소스 파일</Filter>
+    </None>
+    <None Include="..\..\cfg\misc.ini">
+      <Filter>2. 참조파일</Filter>
+    </None>
+    <None Include="..\..\cfg\Mocha.ini">
+      <Filter>2. 참조파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0. Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="1. MFC Framework">
+      <UniqueIdentifier>{12125628-309d-4fe1-84b2-f7b0bf88b857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. 참조파일">
+      <UniqueIdentifier>{da7d76ab-689f-4cef-8754-c45adcb7dcf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. 공유메모리">
+      <UniqueIdentifier>{32086521-012a-4e53-8d00-cfc4ee401512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Client">
+      <UniqueIdentifier>{5834778d-0145-401a-811a-d5fc51c72051}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>1. MFC Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>1. MFC Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>1. MFC Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MCC.h">
+      <Filter>1. MFC Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>1. MFC Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>1. MFC Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SharedFunction.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\SharedMemory.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>4. Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\MCC.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>1. MFC Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>1. MFC Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MCC.cpp">
+      <Filter>1. MFC Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SharedFunction.cpp">
+      <Filter>2. 참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>4. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\MCC.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MCC.rc">
+      <Filter>0. Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MCC.rc2">
+      <Filter>0. Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MCC.ico">
+      <Filter>0. Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>0. Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

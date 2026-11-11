@@ -1,0 +1,10 @@
+; motor,; 한글,; 영문,; 베트남
+IDS_MOTOR_NAME_01,PPBOX E/V Z [Axis1103],PPBox E/B,PPBox E/B
+IDS_MOTOR_NAME_02,글래스 트랜스퍼 Y [Axis1203],Glass Transfer Y,Glass Transfer Y
+IDS_MOTOR_NAME_03,글래스 트랜스퍼 Z [Axis1206],Glass Transfer Z,Glass Transfer Z
+,,,
+IDS_CONVEYOR_NAME_01,Load Conveyor 1,Load Conveyor 1,Load Conveyor 1
+IDS_CONVEYOR_NAME_02,Load Conveyor 2,Load Conveyor 2,Load Conveyor 2
+IDS_CONVEYOR_NAME_03,Elevator Conveyor,Elevator Conveyor,Elevator Conveyor
+IDS_CONVEYOR_NAME_04,Unload Conveyor 1,Unload Conveyor 1,Unload Conveyor 1
+IDS_CONVEYOR_NAME_05,Unload Conveyor 2,Unload Conveyor 2,Unload Conveyor 2

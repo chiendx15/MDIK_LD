@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0.리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="1.MFC_Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="2.참조파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="3.공유메모리">
+      <UniqueIdentifier>{205d032d-6d62-4620-a628-ffe786a7e9a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4.Sequence">
+      <UniqueIdentifier>{da7e9c3c-e7fe-4835-a47c-3a1b24b8083f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>1.MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>1.MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>1.MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>1.MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>1.MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>1.MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence.h">
+      <Filter>1.MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\magic_enum.hpp">
+      <Filter>2.참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Recipe.h">
+      <Filter>2.참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RecipeData.h">
+      <Filter>2.참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Inline.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Mocha.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Mocha.type.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Online.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Sequence.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\SharedMemory.h">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderSeq.h">
+      <Filter>4.Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\MotorInfos.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\MotorPosition_1.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\SequenceLoader.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\AlarmEnum.h">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SharedFunctionLoader.h">
+      <Filter>2.참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\DeviceParameter.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\ConveyorInfos.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\IOInfo_1_LD.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SharedFunction.h">
+      <Filter>2.참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SharedFunction.h">
+      <Filter>2.참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Online.hpp">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MCC_Define.h">
+      <Filter>2.참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\FDC.hxx">
+      <Filter>3.공유메모리</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sequence.cpp">
+      <Filter>1.MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>1.MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>1.MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>1.MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Inline.cxx">
+      <Filter>3.공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Mocha.cxx">
+      <Filter>3.공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Online.cxx">
+      <Filter>3.공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Sequence.cxx">
+      <Filter>3.공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="LoaderSeq.cpp">
+      <Filter>4.Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\MotorInfos.cxx">
+      <Filter>3.공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\MotorPosition.cxx">
+      <Filter>3.공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SharedFunctionLoader.cpp">
+      <Filter>2.참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\DeviceParameter.cxx">
+      <Filter>3.공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\ConveyorInfos.cxx">
+      <Filter>3.공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SharedFunction.cpp">
+      <Filter>2.참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SharedFunction.cpp">
+      <Filter>2.참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\MCC_Define.cpp">
+      <Filter>2.참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\FDC.cxx">
+      <Filter>3.공유메모리</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sequence.rc">
+      <Filter>0.리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Sequence.rc2">
+      <Filter>0.리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Sequence.ico">
+      <Filter>0.리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>0.리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

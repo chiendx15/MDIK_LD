@@ -1,0 +1,10 @@
+﻿; motor,; 한글,; 영문,; 베트남
+IDS_MOTOR_NAME_01,PPBOX E/V Z [Axis1103],PPBox E/V Z,PPBox E/V Z
+IDS_MOTOR_NAME_02,로더 트랜스퍼 Y [Axis1203],LD Transfer Y,LD Transfer Y
+IDS_MOTOR_NAME_03,로더 트랜스퍼 Z [Axis1206],LD Transfer Z,LD Transfer Z
+,,,
+IDS_CONVEYOR_NAME_01,투입 컨베이어 1,Load Conveyor 1,Băng tải 1
+IDS_CONVEYOR_NAME_02,투입 컨베이어 2,Load Conveyor 2,Băng tải 2
+IDS_CONVEYOR_NAME_03,엘리베이터 컨베이어,Elevator Conveyor,Băng tải thang máy
+IDS_CONVEYOR_NAME_04,배출 컨베이어 1,Unload Conveyor 1,Dỡ tải băng tải 1
+IDS_CONVEYOR_NAME_05,배출 컨베이어 2,Unload Conveyor 2,Dỡ tải băng tải 2

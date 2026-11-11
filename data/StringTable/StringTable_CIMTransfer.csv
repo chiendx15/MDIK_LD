@@ -1,0 +1,695 @@
+﻿IDS_MAIN_TITLE,HMMBMM700,HMMBMM700,HMMBMM700
+IDS_YES,Yes,예,はい
+IDS_NO,No,아니오,いいえ
+IDS_OK,OK,OK,OK
+IDS_CANCEL,Cancel,취소,キャンセル
+IDS_ABORT,Abort,중지,停止
+IDS_RETRY,Retry,재시도,再試行
+IDS_IGNORE,Ignore,무시,無視
+IDS_APPLY,Apply,적용,適用
+IDS_CHANGE,Change,변경,変更
+IDS_CLOSE,Close,닫기,閉じる
+IDS_SAVE,Save,저장,セｰブ
+IDS_LOAD,Load,읽기,読込
+IDS_RELOAD,Reload,다시읽기,Reload
+IDS_COPY,Copy,복사,コピー
+IDS_DELETE,Delete,삭제,削除
+IDS_GET,Get,읽기,取得
+IDS_SET,Set,설정,セット
+IDS_MOVE,Move,이동,移動
+IDS_ON,ON,ON,オン
+IDS_OFF,OFF,OFF,オフ
+IDS_PORT,Port,Port,ポｰト
+IDS_CONNECT,Connect,연결함,接続
+IDS_DISCONNECT,Disconnect,연결 끊음,未接続
+
+IDS_MAIN_PATH,Path Name :,경로명 :,パス名 :
+IDS_MAIN_FILE,File Name :,파일명 :,ファイル名 :
+IDS_MAIN_SEARCH,...,...,...
+IDS_MAIN_EXIT,Log-Out?,로그아웃 하시겠습니까?,Log-Out?
+
+IDS_MAIN_START,RUN,시작,開始
+IDS_MAIN_RUN,RUN,자동운전,自動運転
+IDS_MAIN_PAUSE,PAUSE,일시정지,一時停止
+IDS_MAIN_STOP,STOP,중지,中止
+IDS_MAIN_PM,PM,PM,PM
+IDS_MAIN_DOOR_OPEN,Door Open,Door Open,ドアオｰプン
+IDS_MAIN_DOOR_CLOSE,Door Close,Door Close,ドアクロ-ズ
+IDS_MAIN_LIGHT,Light ON/OFF,조명 ON/OFF,ライト　オン/オフ
+IDS_MAIN_SUNITSTCODE,Sub-Unit Status\nReason Code,Sub-Unit Status\nReason Code,サブユニットステ-タス　理由コｰド
+
+IDS_ALARM,Alarm,알람,アラーム
+IDS_ALARM_SYSTEM,System Alarm,시스템 알람,システムアラーム
+IDS_ALARM_PROCESS,Process Alarm,프로세스 알람,プロセスアラーム
+IDS_ALARM_CODE,Alarm-Code,알람코드,アラームコード
+IDS_ALARM_CLEAR,Alarm Clear,Alarm Clear,アラーム Clear
+IDS_ALARM_OCCURRED_TIME,Occurred Time,발생 시간,発生した時間
+IDS_ALARM_CLEAR_TIME,Clear Time,초기화 시간,クリアタイム
+IDS_ALARM_TYPE,Alarm-Type,알람타입,タイプ
+IDS_ALARM_DESCRIPTION,Description,알람설명,アラーム内容
+IDS_DETAIL_VIEW,Detail,상세 보기,詳細確認
+IDS_ALARM_FILE_LOAD,Alarm File Load,Alarm File Load,アラ-ムファイルのロ-ド
+IDS_ALARM_ETC,and,외,と
+IDS_ALARM_OCCURRED,Occurred.,발생하였습니다.,発生しました。
+IDS_ALARM_COUNT_OCCURRED,Occurred.,건이 발생하였습니다.,件が発生しました。　
+
+
+;Manual-Mode에서의 메뉴
+IDS_MAIN_MENU_0,Exit,종료,終了
+IDS_MAIN_MENU_1,
+IDS_MAIN_MENU_2,Main,메인,
+IDS_MAIN_MENU_3,Parameter,파라미터
+IDS_MAIN_MENU_4
+IDS_MAIN_MENU_5,
+IDS_MAIN_MENU_6,
+IDS_MAIN_MENU_7,
+IDS_MAIN_MENU_8,
+IDS_MAIN_MENU_9
+IDS_MAIN_MENU_10
+IDS_MAIN_MENU_11
+IDS_MAIN_MENU_12
+
+; Main Menu 1
+IDS_SM_1_1,
+IDS_SM_1_2,
+IDS_SM_1_3,
+IDS_SM_1_4,
+IDS_SM_1_5,
+IDS_SM_1_6,
+IDS_SM_1_7,
+IDS_SM_1_8,
+IDS_SM_1_9,
+IDS_SM_1_10,,
+IDS_SM_1_11,,
+IDS_SM_1_12,
+IDS_SM_1_13,
+
+
+; Main Menu 2
+IDS_SM_2_1,
+IDS_SM_2_2,
+IDS_SM_2_3,
+IDS_SM_2_4,
+IDS_SM_2_5
+IDS_SM_2_6
+IDS_SM_2_7
+IDS_SM_2_8
+IDS_SM_2_9,
+IDS_SM_2_10
+IDS_SM_2_11
+IDS_SM_2_12
+IDS_SM_2_13
+
+; Main Menu 3
+IDS_SM_3_1,
+IDS_SM_3_2,
+IDS_SM_3_3,
+IDS_SM_3_4,
+IDS_SM_3_5,,
+IDS_SM_3_6,
+IDS_SM_3_7,
+IDS_SM_3_8,
+IDS_SM_3_9,
+IDS_SM_3_10
+IDS_SM_3_11
+IDS_SM_3_12
+IDS_SM_3_13
+
+; Main Menu 4
+IDS_SM_4_1
+IDS_SM_4_2
+IDS_SM_4_3,
+IDS_SM_4_4,
+IDS_SM_4_5,
+IDS_SM_4_6,
+IDS_SM_4_7
+IDS_SM_4_8
+IDS_SM_4_9
+IDS_SM_4_10
+IDS_SM_4_11
+IDS_SM_4_12
+IDS_SM_4_13
+
+; Main Menu 5
+IDS_SM_5_1,
+IDS_SM_5_2,
+IDS_SM_5_3,
+IDS_SM_5_4,
+IDS_SM_5_5,
+IDS_SM_5_6,
+IDS_SM_5_7
+IDS_SM_5_8
+IDS_SM_5_9
+IDS_SM_5_10
+IDS_SM_5_11
+IDS_SM_5_12
+IDS_SM_5_13
+
+; Main Menu 6
+IDS_SM_6_1,
+IDS_SM_6_2,
+IDS_SM_6_3,
+IDS_SM_6_4,
+IDS_SM_6_5,
+IDS_SM_6_6,
+IDS_SM_6_7
+IDS_SM_6_8
+IDS_SM_6_9,
+IDS_SM_6_10
+IDS_SM_6_11,
+IDS_SM_6_12,
+IDS_SM_6_13,
+
+; Main Menu 7
+IDS_SM_7_1,
+IDS_SM_7_2,
+IDS_SM_7_3,
+IDS_SM_7_4
+IDS_SM_7_5,
+IDS_SM_7_6,
+IDS_SM_7_7
+IDS_SM_7_8
+IDS_SM_7_9
+IDS_SM_7_10
+IDS_SM_7_11
+IDS_SM_7_12
+IDS_SM_7_13
+
+; Main Menu 8
+IDS_SM_8_1
+IDS_SM_8_2
+IDS_SM_8_3
+IDS_SM_8_4
+IDS_SM_8_5
+IDS_SM_8_6
+IDS_SM_8_7
+IDS_SM_8_8
+IDS_SM_8_9
+IDS_SM_8_10
+IDS_SM_8_11
+IDS_SM_8_12
+IDS_SM_8_13
+
+IDS_ONLINE_OFFLINE,Off-Line,오프라인,オフライン
+IDS_ONLINE_ONLINE,Remote,리모트,リモート
+IDS_ONLINE_LOCAL,Local,Local,単独
+IDS_ONLINE_SKIP,On-Line Skip,On-Line Skip,オンラインスキップ
+IDS_ONLINE_INLINE_ON,Inline-On,물류연동-켬,インライン・オン
+IDS_ONLINE_INLINE_OFF,Inline-Off,물류연동-끔,インラインオフ
+IDS_ONLINE_HOST_MESSAGE,Host Message,호스트 메시지,ホストメッセージ
+
+IDS_MOTOR_X1,X1-Axis(mm),X1축(mm),X1 軸(mm)
+IDS_MOTOR_X2,X2-Axis(mm),X2축(mm),X2 軸(mm)
+IDS_MOTOR_Y1,Y-Axis(mm),Y축(mm),Y 軸(mm)
+IDS_MOTOR_T1,T-Axis(deg),T축(deg),T 軸(deg)
+IDS_MOTOR_Z1,Z1-Axis(mm),Z1축(mm),Z1 軸(mm)
+IDS_MOTOR_Z2,Z2-Axis(mm),Z2축(mm),Z2 軸(mm)
+
+IDS_PROCESS_CONNECT_INFO,Device Connection Info.,장치연결상태정보.,機器接続状態
+IDS_ALIGNMENT,Alignment Camera,얼라인먼트 카메라,アライメント
+IDS_GLASS_SCRAP,Glass Scrap,자재 스크랩 ワークを廃棄します
+IDS_GLASS_SCRAP_REASON_CODE,Reason Code Select,Reason Code 선택,,Reason Code Select
+
+IDS_UMAC_AXIS_PARAMETER_AXISNO,AxisNo. :,AxisNo. :,軸番号：
+IDS_UMAC_AXIS_PARAMETER_AXIS_STATUS_NO,Axis Status No. :,Axis Status No. :,軸ステータス番号：
+IDS_UMAC_AXIS_PARAMETER_AXIS_HOME_NO,Axis Home No. :,Axis Home No. :,軸のホーム番号：
+IDS_UMAC_AXIS_PARAMETER_POSITION_RATE,Position Rate :,Position Rate :,ポジションレート：
+IDS_UMAC_AXIS_PARAMETER_SPEED_RATE,Speed Rate :,Speed Rate :,スピードレート：
+IDS_UMAC_AXIS_PARAMETER_MOVE_TIME_OUT,Move Time Out :,Move Time Out :,移動タイムアウト：
+IDS_UMAC_AXIS_PARAMETER_IN_POSITION,In Position  :,In Position  :,位置決め完了 ：
+IDS_UMAC_AXIS_PARAMETER_DEFAULE_VELOCITY,Defaule Velocity :,Defaule Velocity :,速度初期設定：
+IDS_UMAC_AXIS_PARAMETER_DEFAULT_ACCELERATION,Default Acceleration :,Default Acceleration :,加減速初期設定：
+IDS_UMAC_AXIS_PARAMETER_JOG_SPEED,Jog Speed :,Jog Speed :,ジョグスピード：
+IDS_UMAC_AXIS_PARAMETER_STEP_SPEED,Step Speed :,Step Speed :,ステップスピード：
+IDS_UMAC_AXIS_PARAMETER_PTP_SPEED,PtoP Speed :,PTP Speed :,PtoP スピード：
+IDS_UMAC_AXIS_PARAMETER_SOFTWARE_LIMIT_LOW,Software Limit Low :,Software Limit Low :,ソフトウェアリミットLow：
+IDS_UMAC_AXIS_PARAMETER_SOFTWARE_LIMIT_HIGH,Software Limit High :,Software Limit High :,ソフトウェアリミットHigh：
+IDS_UMAC_AXIS_PARAMETER_DEFAULT_SPEED,Default Speed :,Default Speed :,デフォルトスピード：
+
+IDS_LASER_STATUS_SET_AUTOIP_ENABLE,AutoIP Enable,AutoIP Enable,AutoIP Enable
+IDS_LASER_STATUS_SET_CHILLER_ENABLE,Chiller Enable,Chiller Enable,Chiller Enable
+IDS_LASER_STATUS_SET_CHILLER_AUTO_SETTING,Chiller Auto Setting,Chiller Auto Setting,Chiller Auto Setting
+IDS_LASER_STATUS_SET_DHCP_ENABLE,DHCP Enable,DHCP Enable,DHCP Enable
+IDS_LASER_STATUS_SET_EXTERNAL_MODULATION,External Modulation,External Modulation,External Modulation
+IDS_LASER_STATUS_SET_LASER_TURN_ONOFF,Laser Turn OnOff,Laser Turn OnOff,Laser Turn OnOff
+IDS_LASER_STATUS_SET_PULSE_CONTROL_ONOFF,Pulse Control OnOff,Pulse Control OnOff,Pulse Control OnOff
+IDS_LASER_STATUS_SET_RECIRCULATOR_CONTROL,Recirculator Control,Recirculator Control,Recirculator Control
+IDS_LASER_STATUS_SET_EXTERNAL_SHUTTER,External Shutter,External Shutter,外部シャッター
+
+IDS_LASER_STATUS_SET_LASER_CLOSE,Laser Close,Laser Close,Laser Close
+IDS_LASER_STATUS_SET_FAULT_HISTORY_CLEAR,Fault History Clear,Fault History Clear,Fault History Clear
+IDS_LASER_STATUS_SET_WARNNING_HISTORY_CLEAR,Warning History Clear,Warning History Clear,Warning History Clear
+
+IDS_LASER_STATUS_SET_BURST_LENGTH,Burst Length,Burst Length,Burst Length
+IDS_LASER_STATUS_SET_HEARTBEAT_TIMEOUT,HearBeat Timeout,HearBeat Timeout,HearBeat Timeout
+IDS_LASER_STATUS_SET_PULSE_ENERGY_PERCENT,Pulse Energy Percent,Pulse Energy Percent,Pulse Energy Percent
+IDS_LASER_STATUS_SET_REPETITION_RATE,Repetition Rate,Repetition Rate,Repetition Rate
+
+IDS_LASER_STATUS_SET_DNS_ADDRESS,DNS Address,DNS Address,DNS Address
+IDS_LASER_STATUS_SET_STATIC_IP,Set Static IP,Set Static IP,Set Static IP
+IDS_LASER_STATUS_SET_AUTOIP_MAX,Set AutoIP Max,Set AutoIP Max,Set AutoIP Max
+IDS_LASER_STATUS_SET_AUTOIP_MIN,Set AutoIP Min,Set AutoIP Min,Set AutoIP Min
+
+IDS_LASER_STATUS_SET_PULSE_MODE,Pulse Mode,Pulse Mode,Pulse Mode
+
+IDS_LASER_STATUS_INFO,Laser Infos.,레이저 상태 정보.,レーザー
+IDS_LASER_STATUS_LASER_STANDBY,Laser Standby,레이저 준비.,Laser Standby
+IDS_LASER_STATUS_PROG_START_STATIC,PROG Start Static,PROG Start Static,PROG Start Static
+IDS_LASER_STATUS_PILOT_LASER_ON,Pilot Laser On,Pilot Laser On,Pilot Laser On
+IDS_LASER_STATUS_REQUEST_LASER,Request Laser,Request Laser,Request Laser
+IDS_LASER_STATUS_FAULT_EXT,Fault Ext,Fault Ext,Fault Ext
+IDS_LASER_STATUS_EXT_ACTIVATION,Ext Activation,Ext Activation,Ext Activation
+IDS_LASER_STATUS_LASER_RESET,Laser Reset,Laser Reset,Laser Reset
+IDS_LASER_STATUS_LASER_ON,Laser On,Laser On,Laser On
+IDS_LASER_STATUS_PROGRAM_STOP,Program Stop,Program Stop,Program Stop
+IDS_LASER_STATUS_PROGRAM_START_DTN,Program\r\nStart Dtn,Program\r\nStart Dtn,Program\r\nStart Dtn
+IDS_LASER_STATUS_LASER_OFF,Laser Off,Laser Off,Laser Off
+
+IDS_LASER_STATUS_001,Laser is ON,Laser is ON,レーザーはONです,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IDS_LASER_STATUS_002,Ext Activation,Ext Activation,外部制御指示,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IDS_LASER_STATUS_003,Sik_Open,,インタロック回路開,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IDS_LASER_STATUS_004,Power-Limit,Power-Limit,電力制限,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IDS_LASER_STATUS_005,Assigned,Assigned,割り当て済み,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IDS_LASER_STATUS_006,Program-Completed,Program-Completed,プログラム完了,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IDS_LASER_STATUS_007,Fault,Fault,障害,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IDS_LASER_STATUS_008,Ready,Ready,準備完了,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IDS_LASER_STATUS_009,Program-Active,Program-Active,プログラム - アクティブ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IDS_LASER_STATUS_010,Monitoring,Monitoring,モニタリング,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IDS_LASER_STATUS_011,Program-Cancelled,Program-Cancelled,プログラムキャンセル,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+IDS_POSITION_PARAMETER_POS_NAME,Position Name,위치별 명칭,Position Name
+IDS_POSITION_PARAMETER_AXIS,Axis,축,Axis
+IDS_POSITION_PARAMETER_POS,Position[mm],위치[mm],Position[mm]
+IDS_POSITION_PARAMETER_SPEED,Speed[mm/s],속도[mm/s],Speed[mm/s]
+IDS_POSITION_PARAMETER_POSITION_SETTING,Set Position,위치별 설정,Set Position
+IDS_POSITION_PARAMETER_POSITION_MOVE,Teaching Pos\nMove,티칭 위치\n이동,Teaching Pos\nMove
+IDS_POSITION_PARAMETER_SET_ALL,Set All,전체 설정,Set All
+IDS_POSITION_PARAMETER_SET_POS,Set Pos,위치 설정,Set Pos
+IDS_POSITION_PARAMETER_SET_VELOCITY,Set Velocity,속도 설정,Set Velocity
+IDS_POSITION_PARAMETER_CURRENT_POS,Current Pos[mm],현재위치[mm],Current Pos[mm]
+IDS_POSITION_PARAMETER_SET_CURRENT_POS,Set Current Pos,현재위치 설정,Set Current Pos
+IDS_POSITION_PARAMETER_VELOCITY,Velocity[mm/sec],속도[mm/sec],Velocity[mm/sec]
+
+IDS_MOTOR_CONTROL_UMAC,UMAC,UMAC,UMAC
+IDS_MOTOR_CONTROL_SERVO_ON,SERVO\r\nON,SERVO\r\nON,SERVO\r\nON
+IDS_MOTOR_CONTROL_SERVO_OFF,SERVO\r\nOFF,SERVO\r\nOFF,SERVO\r\nOFF
+IDS_MOTOR_CONTROL_HOME,Home,Home,Home
+IDS_MOTOR_CONTROL_ALARM,Alarm,Alarm,Alarm
+IDS_MOTOR_CONTROL_LIMIT_POS,+ Limit,+ Limit,+ Limit
+IDS_MOTOR_CONTROL_LIMIT_NED,- Limit,- Limit,- Limit
+IDS_MOTOR_CONTROL_INPOS,InPos,InPos,InPos
+IDS_MOTOR_CONTROL_POSITION,Position,현재 위치,Position
+IDS_MOTOR_CONTROL_POSITION_UNIT,(mm),(mm),(mm)
+IDS_MOTOR_CONTROL_VELOCITY,Velocity,현재 속도,Velocity
+IDS_MOTOR_CONTROL_VELOCITY_UNIT,(mm/sec),(mm/sec),(mm/sec)
+IDS_MOTOR_CONTROL_ACTUALLOAD,Actual LOAD,과부하,Actual LOAD
+IDS_MOTOR_CONTROL_ESTOP,ESTOP,구동\n정지,ESTOP
+IDS_MOTOR_CONTROL_ABS_MOVE,Move,이동,Move
+IDS_MOTOR_CONTROL_REL_NEG,Step\n-,-\r\n상대\r\n이동,Step\n-
+IDS_MOTOR_CONTROL_REL_POS,Step\n+,+\r\n상대\r\n이동,Step\n+
+IDS_MOTOR_CONTROL_JOG_NEG,Jog\n-,-\r\n조그\r\n이동,Jog\n-
+IDS_MOTOR_CONTROL_JOG_POS,Jog\n+,+\r\n조그\r\n이동,Jog\n+
+IDS_MOTOR_CONTROL_NOT_USE,Not Use,사용\n불가,Not Use
+
+IDS_MOTOR_STATUS_TITLE,Motor Status,Motor Status,Motor Status
+
+IDS_SYSTEM_PARAMETER_MODE_AND_SETTING,Mode and Setting,Mode and Setting,Mode and Setting
+IDS_SYSTEM_PARAMETER_TEACHING,Teaching,Teaching,座標設定
+IDS_SYSTEM_PARAMETER_TEACHING_DESC,Check Material Thickness.,레시피에 설정된 자재두께를 더한 값이 설정 됩니다.,レシピに設定されたワークの厚さを＋で設定して下さい。
+IDS_SYSTEM_PARAMETER_AXIS_POSITION,Axis Position,Axis Position　各座標設定
+IDS_SYSTEM_PARAMETER_VISION_TO_VISION,Vision To Vision,Vision To Vision,カメラ間距離算出用
+IDS_SYSTEM_PARAMETER_LOADING_WAIT_POSITION,Loading Wait Position,Loading Wait Position,ワーク受取位置
+IDS_SYSTEM_PARAMETER_UNLOADING_WAIT_POSITION,Unloading Wait Position,Unloading Wait Position,ワーク排出位置
+IDS_SYSTEM_PARAMETER_LASER_SHOT_1_POSITION,Laser Shot 1 Position,Laser Shot 1 Position,X1加工位置①
+IDS_SYSTEM_PARAMETER_LASER_SHOT_2_POSITION,Laser Shot 2 Position,Laser Shot 2 Position,X2加工位置②
+IDS_SYSTEM_PARAMETER_LASER_SHOT_1_VISION_OFFSET,Laser Shot 1 Vision Offset,Laser Shot 1 Vision Offset,①-#1 観察位置
+IDS_SYSTEM_PARAMETER_LASER_SHOT_2_VISION_OFFSET,Laser Shot 2 Vision Offset,Laser Shot 2 Vision Offset,②-#1 観察位置
+IDS_SYSTEM_PARAMETER_MODE,Mode,Mode,Mode
+IDS_SYSTEM_PARAMETER_SETTING,Setting,Setting,Setting
+IDS_SYSTEM_PARAMETER_SIMULATION_MODE,Simulation Mode,시뮬레이션 모드,Simulation Mode
+IDS_SYSTEM_PARAMETER_MACHINE_TYPE,Fornt/Rear Machine,전후단 장치,Fornt/Rear Machine
+IDS_SYSTEM_PARAMETER_INLINE_MODE,Inline Mode,인라인 모드,Inline Mode
+IDS_SYSTEM_PARAMETER_CLEANING_ENABLE,Cleaning All Unit Enable,클리닝 유닛 사용,Cleaning All Unit Enable
+IDS_SYSTEM_PARAMETER_AIR_BRUSH_ENABLE,Air Brush Enable,에어 브러시 사용,Air Brush Enable
+IDS_SYSTEM_PARAMETER_ALIGN_SKIP_MODE,Align Skip Mode,얼라인 스킵 모드,アライメントスキップモード
+IDS_SYSTEM_PARAMETER_PROCESS_SKIP_MODE,Process Skip Mode,가공 스킵 모드,加工スキップモード
+IDS_SYSTEM_PARAMETER_ONLINE_SKIP_MODE,Online Skip Mode,온라인 스킵 모드,Online Skip Mode
+IDS_SYSTEM_PARAMETER_TIMEOUT,Timeout,타임아웃,Timeout
+IDS_SYSTEM_PARAMETER_LANGUAGE,Language,언어,Language
+IDS_SYSTEM_PARAMETER_VACUUM_TIMEOUT,Vacuum Timeout [ms] :,공압 타임아웃 [ms] :,真空タイムアウト[ms]：
+IDS_SYSTEM_PARAMETER_BLOW_TIMEOUT,Blow Timeout [ms] :,파기 타임아웃 [ms] :,ブロータイムアウト[ms]：
+IDS_SYSTEM_PARAMETER_CYLINDER_TIMEOUT,Cylinder Timeout [ms] :,실린더 타임아웃 [ms] :,シリンダータイムアウト[ms]：
+IDS_SYSTEM_PARAMETER_IO_TIMEOUT,IO Timeout [ms] :,IO 타임아웃 [ms] :,IOタイムアウト[ms]：
+IDS_SYSTEM_PARAMETER_MOVE_TIMEOUT,Move Timeout [ms] :,모터 동작 타임아웃 [ms] :,移動タイムアウト[ms]：
+IDS_SYSTEM_PARAMETER_ALIGNMENT_RETRY,Alignment Retry  :,Alignment Retry  :,アライメント Retry  :
+IDS_SYSTEM_PARAMETER_ALIGNMENT_ACCURACY,Alignment Accuracy [mm] :, Alignment Accuracy [mm] :,アライメント Accuracy [mm] :
+
+IDS_SYSTEM_PARAMETER_ENGLISH,English,영어,英語
+IDS_SYSTEM_PARAMETER_KOREAN,Korean,한국어,韓国語
+IDS_SYSTEM_PARAMETER_CHINESE,Janpanese ,일본어,日本語
+
+IDS_SYSTEM_PARAMETER_POWER_METER_POSITION,Power-Meter Position,파워미터 위치.,Power-Meter Position
+
+IDS_CONNECTION_UMAC,UMAC-Controller,UMAC-Controller,UMAC-Controller
+IDS_CONNECTION_MELSCC_NET,Melsec-Net,Melsec-Net,Melsec-Net
+IDS_CONNECTION_LOCAL_PLC,Local PLC,Local PLC,Local PLC
+IDS_CONNECTION_LASER,Laser,Laser,Laser
+IDS_CONNECTION_TRIGGER,Trigger Module [MVSol],Trigger Module [MVSol],Trigger Module [MVSol]
+IDS_CONNECTION_LIGHT,Light-Controller,Light-Controller,Light-Controller
+IDS_CONNECTION_ATTENUATOR,Attenuator,Attenuator,Attenuator,
+IDS_CONNECTION_LDS,LDS,LDS,LDS
+IDS_CONNECTION_POWER_METER_1,Power-Meter #1,Power-Meter #1,Power-Meter,#1
+IDS_CONNECTION_POWER_METER_2,Power-Meter #2,Power-Meter #2,Power-Meter #2
+
+IDS_MVSOL_DEFAULT,Default,,기본값,Default
+IDS_MVSOL_MONITOR,Monitoring,모니터링,Monitoring
+IDS_MVSOL_MODE_1,Mode #1,,Mode #1,,Mode #1,
+IDS_MVSOL_MODE_3,Mode #3,,Mode #3,,Mode #3
+IDS_MVSOL_MODE_4,Mode #4,,Mode #4,,Mode #4
+
+
+IDS_INLINE_STATUS_INFO,Inline Status Info.,자동물류 상태정보.,自動運転信号.
+IDS_INLINE_UPPER_000,Send-AutoMode,자동모드중,自動運転中
+IDS_INLINE_UPPER_001,Send-Able,Send-Able,排出要求信号
+IDS_INLINE_UPPER_002,Send-Start,Send-Start,排出中信号
+IDS_INLINE_UPPER_003,Send Data To,Send Data To,ﾃﾞｰﾀ移管信号
+IDS_INLINE_UPPER_004,Send-Complete,Send-Complete,排出完了信
+IDS_INLINE_UPPER_005,Vacuum On Request,Vacuum On Request,吸着ON要求信号
+IDS_INLINE_UPPER_006,Send-Pause,Send-Pause,一時停止中信号
+IDS_INLINE_UPPER_007,Cancel,Cancel,ｷｬﾝｾﾙ信号
+IDS_INLINE_UPPER_008,
+IDS_INLINE_UPPER_009,
+IDS_INLINE_UPPER_010,Incoherence.,Incoherence.,非干渉信号
+IDS_INLINE_UPPER_011,.,.,.
+IDS_INLINE_UPPER_012,Abnormal[BLOW-ON Req],Abnormal[BLOW-ON Req],ブロー要求
+IDS_INLINE_UPPER_013
+IDS_INLINE_UPPER_014
+IDS_INLINE_UPPER_015
+
+IDS_INLINE_LOWER_000,Recv-AutoMode,Recv-AutoMode,自動運転中
+IDS_INLINE_LOWER_001,Recv-Able,Redv-Able,受取可信号
+IDS_INLINE_LOWER_002,Recv-Start,Redv-Start,受取中信号
+IDS_INLINE_LOWER_003,Recv Data To,Recv Data To,ﾃﾞｰﾀ移管信号
+IDS_INLINE_LOWER_004,Recv-Complete,Recv-Complete,完了信号
+IDS_INLINE_LOWER_005,Vacuum Off Request,Vacuum Off Request,吸着OFF要求信号
+IDS_INLINE_LOWER_006,Recv-Pause,Recv-Pause,停止中信号
+IDS_INLINE_LOWER_007,Recv-Cancel,Recv-Cancel,ｷｬﾝｾﾙ信号
+IDS_INLINE_LOWER_008,
+IDS_INLINE_LOWER_009,
+IDS_INLINE_LOWER_010,Incoherence.,Incoherence.,非干渉信号
+IDS_INLINE_LOWER_011,.,.,.
+IDS_INLINE_LOWER_012,Abnormal[AIR-ON Req],Abnormal[AIR-ON Req],ブロー要求
+IDS_INLINE_LOWER_013,
+IDS_INLINE_LOWER_014
+IDS_INLINE_LOWER_015
+
+IDS_INLINE_EQ_RECV_000,Recv-AutoMode,Recv-AutoMode,自動運転中
+IDS_INLINE_EQ_RECV_001,Recv-Able,Recv-Able,受取可信号
+IDS_INLINE_EQ_RECV_002,Recv-Start,Recv-Start,受取中信号
+IDS_INLINE_EQ_RECV_003,Vacuum On Complete,Vacuum On Complete,吸着完了
+IDS_INLINE_EQ_RECV_004,Recv-NextGlass,Recv-NextGlass,次ﾜｰｸ取出し許可信号
+IDS_INLINE_EQ_RECV_005,.,.,.,
+IDS_INLINE_EQ_RECV_006,Recv-Pause,Recv-Pause,停止中信号
+IDS_INLINE_EQ_RECV_007,Recv-Cancel,Recv-Cancel,ｷｬﾝｾﾙ信号
+IDS_INLINE_EQ_RECV_008
+IDS_INLINE_EQ_RECV_009
+IDS_INLINE_EQ_RECV_010,Incoherence.,Incoherence.,非干渉信号
+IDS_INLINE_EQ_RECV_011,Vacuum Is ON,Vacuum Is ON,吸着電磁弁ON中
+IDS_INLINE_EQ_RECV_012,Abnormal[AIR-ON Res],Abnormal[AIR-ON Res],ブロー中
+IDS_INLINE_EQ_RECV_013
+IDS_INLINE_EQ_RECV_014
+IDS_INLINE_EQ_RECV_015
+
+IDS_INLINE_EQ_SEND_000,Send-AutoMode,Send-AutoMode,自動運転中
+IDS_INLINE_EQ_SEND_001,Send-Able,Send-Able,排出要求信号
+IDS_INLINE_EQ_SEND_002,Send-Start,Send-Start,排出中信号
+IDS_INLINE_EQ_SEND_003,Vacuum Off Complete,Vacuum Off Complete,吸着OFF完了信号
+IDS_INLINE_EQ_SEND_004,Send-NextGlass,Send-NextGlass,次ﾜｰｸ取出し許可信号
+IDS_INLINE_EQ_SEND_005,.,.,.
+IDS_INLINE_EQ_SEND_006,Send-Pause,Send-Pause,停止中信号
+IDS_INLINE_EQ_SEND_007,Send-Cancel,Send-Cancel,ｷｬﾝｾﾙ信号
+IDS_INLINE_EQ_SEND_008
+IDS_INLINE_EQ_SEND_009
+IDS_INLINE_EQ_SEND_010,Incoherence.,Incoherence.,非干渉信号
+IDS_INLINE_EQ_SEND_011,Vacuum Is ON,Vacuum Is ON,吸着電磁弁ON中
+IDS_INLINE_EQ_SEND_012,Abnormal[AIR-ON Res],Abnormal[AIR-ON Res],ブロー中
+IDS_INLINE_EQ_SEND_013
+IDS_INLINE_EQ_SEND_014
+IDS_INLINE_EQ_SEND_015
+
+IDS_MAINT_PASSWORD,Password Change,암호 변경,パスワード変更
+IDS_MAINT_ADMIN,Admin Mode,관리자 모드,管理者モード
+IDS_MAINT_RELOAD,Reload,Reload,Reload
+IDS_MAINT_SAVE,Save,Save,Save
+IDS_MAINT_PARAMETER,Parameter,파라미터,パラメーター
+IDS_MAINT_JOG_SPEED_H,Jog Speed High[mm/sec],조그 이동속도 상[mm/sec],ジョグ速度　高[mm/sec]
+IDS_MAINT_JOG_SPEED_M,Jog Speed Middle[mm/sec],조그 이동속도 중[mm/sec],ジョグ速度　中[mm/sec]
+IDS_MAINT_JOG_SPEED_L,Jog Speed Low[mm/sec],조그 이동속도 하[mm/sec],ジョグ速度　低[mm/sec]
+IDS_MAINT_ACC_TIME,Acc Time[msec],가속시간[msec],加速時間[msec]
+IDS_MAINT_DEC_TIME,Dec Time[msec],감속시간[msec],減速時間[msec]
+IDS_MAINT_TRANSFER_SPEED,Transfer Speed[mm/sec],전송속도 [mm/sec],搬送速度[mm/sec]
+IDS_MAINT_ALIGNMENT_POS_MOVE_SPEED,Alignment Pos Move Speed[mm/sec],얼라인먼트 이동속도[mm/sec],アライメント置決め速度[mm/sec]
+IDS_MAINT_PROCESS_POS_MOVE_SPEED,Process Pos Move Speed[mm/sec],가공위치 이동속도[mm/sec],加工位置決め速度[mm/sec]
+IDS_MAINT_SOFT_LIMIT,Software Limit,소프트웨어 리밋,ソフトリミット
+IDS_MAINT_IN_POSITION,In-Position[mm],In-Position[mm],In-Position[mm]
+IDS_MAINT_PROCESS_LIMIT_POS,Process + Limit[mm],가공위치 + 리밋[mm],加工位置+ [mm]
+IDS_MAINT_PROCESS_LIMIT_NEG,Process - Limit[mm],가공위치 - 리밋[mm],加工位置- [mm]
+IDS_MAINT_ALIGNMENT_LIMIT_POS,Alignment + Limit[mm],얼라인먼트 +리밋[mm],画像処理位置+ [mm]
+IDS_MAINT_ALIGNMENT_LIMIT_NEG,Alignment - Limit[mm],얼라인먼트 -리밋[mm],画像処理位置- [mm]
+IDS_MAINT_WORK_CHANGE_LIMIT_POS,Work Change + Limit[mm],자재교환위치 +리밋[mm],ワーク取り換え位置+ [mm]
+IDS_MAINT_WORK_CHANGE_LIMIT_NEG,Work Change - Limit[mm],자재교환위치 -리밋[mm],ワーク取り換え位置- [mm]
+IDS_MAINT_WAIT_POS,Wait Position,대기 위치,基準位置
+IDS_MAINT_PROCESS_POS,Process Pos[mm],가공위치 [mm],加工位置 [mm]
+IDS_MAINT_ALIGNMENT_POS,Alignment Pos[mm],얼라인먼트위치 [mm],画像処理位置 [mm]
+IDS_MAINT_WORK_CHANGE_POS,Work Change Pos [mm],자재교환위치 [mm],ワーク取り換え位置 [mm]
+IDS_MAINT_IO,IO Monitor,IO 동작 상태,I/Oモニタ
+IDS_MAINT_IO_IN,IN,IN,IN
+IDS_MAINT_IO_OUT,OUT,OUT,OUT
+
+IDS_MOTOR_POSITION,Motor Position :,Motor Position :,モータ位置 : 
+IDS_MOTOR_POSITION_OFFSET,Alignment Offset : ,Alignment-Offset : ,アライメント-オフセット: 
+IDS_PROCESS_SET_ALIGNMENT_POS,Alignment-Position Setting,얼라인먼트위치 설정,アライメント 設定
+IDS_PROCESS_NO,NO.,공정,工程
+
+IDS_PROJECT_INFO,Project Infos.,프로젝트 정보.,プログラム情報.
+IDS_PROJECT_NAME,Project Name.,프로젝트명.,プログラム名.
+IDS_PROJECT_NO,Project No.,프로젝트 번호.,プログラムNo：
+IDS_PROJECT_DXF,DXF File.,DXF 파일명.,DXF ファイル名：
+IDS_PROJECT_OPEN,Open,열기,開く
+IDS_PROJECT_SAVE,Save,저장,セｰブ
+IDS_PROJECT_SAVE_AS,Save As.,Save As.,別の名前で保存
+IDS_PROCESS_TACTTME,Tact Time,가공시간:,加工タクト
+
+IDS_MACHIE_INFO,Machine Infos., 장치 상태 정보.,現在座標
+IDS_MACHINE_INFO_INTERPOLATION,Interpolation,보정값 적용중,補正状態
+IDS_MACHINE_INFO_GROOVE_VACUUM_ON,Groove\nVacuum ON,Groove\nVacuum On,トッププレート吸着ON
+IDS_MACHINE_INFO_GROOVE_VACUUM_OFF,Groove\nVacuum Off,Groove\nVacuum Off,トッププレート吸着OFF
+IDS_MACHINE_INFO_VACUUM_ON,Vacuum ON,Vacuum On,テーブル吸着ON
+IDS_MACHINE_INFO_VACUUM_OFF,Vacuum Off,Vacuum Off,テーブル吸着OFF
+IDS_MACHINE_INFO_BLOW_ON,Blow ON,Blow On,テーブルブローON
+IDS_MACHINE_INFO_BLOW_OFF,Blow Off,Blow Off,テーブルブローOFF
+IDS_MACHINE_INFO_DOOR_ON,Door Open,도어 열림,ロボットシャッター開
+IDS_MACHINE_INFO_DOOR_OFF,Door Close,도어 닫힘,ロボットシャッター閉
+IDS_MACHINE_INFO_PROCESS_STOP,Process Stop,작업 정지,加工停止
+IDS_MACHINE_INFO_CLEANING_UP,Cleaning Cylinder Up,클리닝 실린더 Up,Cleaning Cylinder Up
+IDS_MACHINE_INFO_CLEANING_DOWN,Cleaning Cylinder Down,클리닝 실린더 Down,Cleaning Cylinder Down
+IDS_MACHINE_INFO_CLEANING_ROLLER_START,Cleaning Roller Start,클리닝 룰러 시작,Cleaning Roller Start
+IDS_MACHINE_INFO_CLEANING_ROLLER_STOP,Cleaning Roller Stop,클리닝 룰러 종료,Cleaning Roller Stop 
+IDS_MACHINE_INFO_MOVE_TO_LOADING,1. Loading PositionMove,1. 로딩위치 이동,1. 受け取り位置移動
+IDS_MACHINE_INFO_ALIGNMENT,2. Alignment.,2. 메뉴얼 얼라인먼트,2. アライメント動作実行
+IDS_MACHINE_INFO_CREATE_MOTION,3. Create Motion,3.G-Code 생성 및 다운로드,3. モーション生成
+IDS_MACHINE_INFO_PROCESS,4. Process,4. 메뉴얼 가공,4. 加工動作実行
+IDS_MACHINE_INFO_MOVE_TO_UNLOADING,5. Unloading PositionMove,5. 언로딩위치 이동,5. 排出位置移動
+
+IDS_PROCESS_TYPE,Process Type:,라인타입 :,Process Type:,
+IDS_PROCESS_TYPE_CALIBRATION,CALIBRATION,CALIBRATION,CALIBRATION
+IDS_PROCESS_TYPE_POLYLINE,POLY-LINE,POLY-LINE,POLY-LINE
+IDS_PROCESS_TYPE_ALIGNMENT,ALIGNMENT,ALIGNMENT,ALIGNMENT
+IDS_PROCESS_TYPE_LINE,LINE,LINE,LINE
+IDS_PROCESS_TYPE_POINT,POINT,POINT,POINT
+IDS_PROCESS_TYPE_CIRCLE,CIRCLE,CIRCLE,CIRCLE
+
+IDS_RECIPE_MOVE_PROCESS,Move To Process,가공위치 이동,加工位置
+IDS_RECIPE_MOVE_ALIGNMENT,Move To Alignment,얼라인먼트위치 이동,アライメント位置
+IDS_RECIPE_MOVE_WAIT,Move To Work-Change,자재 교환 위치 이동,ワーク取り換え位置
+IDS_RECIPE_CUR_POS_SET,Set,설정,設定
+IDS_RECIPE_MOVE_TO,Move,이동,移動
+IDS_RECIPE_ALIGNMENT_REG,Reg,등록,登録
+IDS_RECIPE_ALIGNMENT_SEARCH,Search,검색,検索
+IDS_RECIPE_VX,Vision-X(mm),비전축(mm),画像軸 [mm]
+IDS_RECIPE_OFFSET_X,Offset X,오프셋 X,オフセット X
+IDS_RECIPE_OFFSET_Y,Offset Y,오프셋 Y,オフセット Y
+IDS_RECIPE_LASER_PROGRAM_NO,Laser Program No,레이저 프로그램 번호, レーザー プログラム 番号：
+IDS_RECIPE_MATERIAL_THICKNESS,Material Z[mm] : ,자재 두께,Z軸オフセット設定[mm] : 
+
+IDS_RECIPE_LOADING_POSITION_YT,Y/T Loading Position  :,Y/T Loading Position  :,Ｙ、Ｔ軸 ワーク受取位置[mm]:
+IDS_RECIPE_UNLOADING_POSITION_YT,Y/T Unloading Position :,Y/T Unloading Position :,Ｙ、Ｔ軸 ワーク排出位置[mm]:
+IDS_RECIPE_ALIGNMENT_T,Alignment Deg :,Alignment Deg :,アライメント時Ｔ軸角度[deg]:
+IDS_RECIPE_ALIGNMENT_ENABLE_X2,Enable Alignment X2 :,X2축 얼라인먼트 사용 :,アライメント時X2の使用:
+IDS_RECIPE_ALIGNMENT_1_POS,Alignment #1 Pos :,Alignment #1 Pos :,アライメント #1 Pos :
+IDS_RECIPE_ALIGNMENT_2_POS,Alignment #2 Pos :,Alignment #2 Pos :,アライメント #2 Pos :
+IDS_RECIPE_ALIGNMENT_1_IMAGE,Alignment #1 Mark Image :,Alignment #1 Mark Image :,アライメント#1登録画像 :
+IDS_RECIPE_ALIGNMENT_2_IMAGE,Alignment #2 Mark Image :,Alignment #2 Mark Image :,アライメント#2登録画像 :
+IDS_RECIPE_MARK_IMAGE_CENTER,Set Mark Center :,얼라인마크 중심점 선택 :,中心任意設定:
+IDS_RECIPE_MARK_CENTER_SEARCH,Search Center,얼라인마크 중심정 찾기,中心自動設定
+IDS_RECIPE_LIGHT_VALUE,Light Value.,조명값.,照明光量:
+IDS_RECIPE_LIGHT_1,Alignment #1,얼라인먼트 #1,アライメント#1
+IDS_RECIPE_LIGHT_2,Alignment #2,얼라인먼트 #2,アライメント#2
+IDS_RECIPE_PROCESS,Process Parameter,가공조건,加工内容設定
+IDS_RECIPE_PROCESS_X2_ENABLE,X2-Axis Enable :,X2축 사용 :,加工時X2の使用
+IDS_RECIPE_PROCESS_DXF,DXF File :,도면 파일 경로 :,DXFファイル:
+IDS_RECIPE_PROCESS_1_COUNT,Draw Only 1 ,하나만 가공 ,１セル加工モード
+IDS_RECIPE_PROCESS_VISION_TRACE,Vision Trace Mode,비젼 추적 모드,軌跡観察モード
+IDS_RECIPE_PROCESS_CONDITION,Condition Parameter.,가공조건.,加工条件設定
+IDS_RECIPE_PROCESS_CONDITION_TYPE,Line-Type,라인타입 :,加工線設定:
+IDS_RECIPE_PROCESS_CONDITION_LASER_PROGRAM_NO,Laser Program No :,레이저 프로그램 번호 :,レーザーNo.: 
+IDS_RECIPE_PROCESS_CONDITION_POWER,Laser-Power [%]:,레이저 파워 [%]:,レーザー出力[%]
+IDS_RECIPE_PROCESS_CONDITION_ARRAY,Clockwise :,시계방향 :,軌跡方向
+IDS_RECIPE_PROCESS_CONDITION_MOVE_SPEED,Move Speed [mm/s]:,이동 속도 [mm/s]:,移動速度[mm/s]:
+IDS_RECIPE_PROCESS_CONDITION_ACC_LENGTH,A/D Length [mm]:,가감속 거리 [mm]:,円弧前後距離[mm]:
+IDS_RECIPE_PROCESS_CONDITION_LINE_SPEED,Line-Speed [mm/s]:,라인 가공속도 [mm/s]:,直線速度[mm/s]:
+IDS_RECIPE_PROCESS_CONDITION_ARC_SPEED,Arc-Speed [mm/s]:,곡선 가공속도 [mm/s]:,円弧速度[mm/s]:
+IDS_RECIPE_PROCESS_CONDITION_ACC_G,A/D G Value :,가감속 G 값 :,加減速Ｇ:
+
+IDS_RECIPE_PROCESS_MODE_3,MODE #3 Parameter,모드 #3 파라미터,トリガ設定
+IDS_RECIPE_PROCESS_MODE_3_DISTANCE,Distance[μm]:,거리[μm]:,ピッチ[μm]:
+IDS_RECIPE_PROCESS_MODE_3_PLUSE,Pulse Width[μm] :,펄스 간격[μm] :,トリガ時間[μm]:
+IDS_RECIPE_PROCESS_MODE_3_MAX_SPEED,Max Speed[mm/s]:,최대 이동 속도[mm/s] :,最高速度[mm/s]:
+IDS_RECIPE_PROCESS_MODE_3_POSOTION_OFFSET,Position Offset Count :,Position Offset Count:,変更不可：
+
+IDS_INIT_SEQ_INITIALIZE,System Initialize,시스템 초기화,System 原点復帰
+IDS_INIT_SEQ_QUESTION,Do you want initialize?,초기화 작업을 진행하시겠습니까?,原点復帰を行いますか？
+IDS_INIT_SEQ_POWER_ON_CHECK,Check PLC Power-ON.,PLC의 전원을 확인 하시기 바랍니다.Check PLC Power-ON.
+IDS_INIT_SEQ_NONE,None,None,None,
+IDS_INIT_SEQ_START,Start Initialize.,초기화 작업을 시작합니다.,原点復帰開始
+IDS_INIT_SEQ_START_IN_ENABLE_CHECK,Status Check,초기화를 위한 상태를  확인합니다.,Status Check
+IDS_INIT_SEQ_UPPER_LOWER_STATUS_CHECK,Loader/Unloader Stattus Check,PLC와의 연결 상태 및 Loader/Unloader의 로봇 위치 확인,Loader/Unloader Stattus Check
+IDS_INIT_SEQ_MAIN_MC_POWER_ON_CHECK,Main MC Power-On Check,Main-MC Power On 상태를 확인합니다.,Main MC Power-On Check.
+IDS_INIT_SEQ_MAIN_MC_LOCAL_MODE_QUESTION,Local Mode Main MC Power-On Question.,로컬모드에서 Main-MC Power On 명령여부를 확인.,Local Mode Main MC Power-On Commad Question.
+IDS_INIT_SEQ_MAIN_MC_LOCAL_POWER_ON,Local Mode Main MC Power-On.,로컬모드에서 Main-MC Power On 명령합니다.,Local Mode Main MC Power-On Commad.
+IDS_INIT_SEQ_MOTOR_ALARM_CLEAR,Alarm Clear Request,모터 알람 클리어 요청.,Alarm Clear Request
+IDS_INIT_SEQ_DRIVER_MOTOR_POWER_ON,Motor & Driver Power On Check,모터 드라이버 및 모터 전원 상태 확인,Motor & Driver Power On Check
+IDS_INIT_SEQ_MOTOR_STATUS_CHECK,Motor Alarm Status Check,모터의 알람상태를 확인,Motor Alarm Status Check
+IDS_INIT_SEQ_MOTOR_POWER_OFF,Abnormal Job(Motor Driver Power-Off),모터의 알람이 발생한 경우 드라이버 전원 차단 요청,Abnormal Job(Motor Driver Power-Off)
+IDS_INIT_SEQ_POWER_METER_CYLINDER_BACKWARD,Power-Meter Cylinder Backward,파워미터 실린터 Backward,Power-Meter Cylinder Backward
+IDS_INIT_SEQ_TABLE_GROOVE_CHECK,Work-Table Gloove Vacuum On.,워크테이블의  Vacuum ON 상태를 확인합니다.,Work-Table Gloove Vacuum On.
+IDS_INIT_SEQ_Z_REQUEST,(Z1,Z2) initialize start.,(Z1, Z2)축의 초기화를 진행합니다.,(Z1,Z2)軸の　原点復帰開始
+IDS_INIT_SEQ_Z_WAIT,(Z1,Z2) waiting.,(Z1,Z2)축의 초기화 진행중 입니다.,(Z1,Z2)軸の原点復帰開始
+IDS_INIT_SEQ_X_REQUEST,(X1,X2) initialize start.,(X1, X2)축의 초기화를 진행합니다.,(X1,X2)軸の　原点復帰開始
+IDS_INIT_SEQ_X_WAIT,(X1,X2) waiting.,(X1,X2)축의 초기화 진행중 입니다.,(X1,X2)軸の原点復帰開始
+IDS_INIT_SEQ_Y_REQUEST,(Y) initialize start.,(Y)축의 초기화를 진행합니다.,(Y)軸の原点復帰開始中
+IDS_INIT_SEQ_Y_WAIT,(Y) waiting.,(Y)축의 초기화 진행중 입니다.,(Y)軸の原点復帰開始中
+IDS_INIT_SEQ_T_REQUEST,(T) initialize start.,(T)축의 초기화를 진행합니다.,(T)軸の原点復帰開始中
+IDS_INIT_SEQ_T_WAIT,(T) waiting.,(T)축의 초기화 진행중 입니다.,(T)軸の原点復帰開始中
+IDS_INIT_SEQ_INTERPOLATION,Do you want to Axis Interpolation?,축 보정값 적용 하겠습니까?,補正を有効にしますか？
+IDS_INIT_SEQ_INTERPOLATION_APPLY,Axis Interpolation Apply.,축 보정값 적용 유무.,補正有効
+IDS_INIT_SEQ_MOVE_TO_X2_WAIT_POS,X2 Move To Wait-Position.,X2축을 대기 위치로 이동합니다.,X2 待機位置移動
+IDS_INIT_SEQ_COMPLETE,Initialize completed.,초기화 작업이 완료되었습니다.,原点復帰の完了
+IDS_INIT_SEQ_END,End,End,End
+IDS_INIT_SEQ_ERROR_INTERPOLATION_APPLY,Error Axis Interpolation Apply.,축 보정값 적용 실패.,補正を有効にしますか？
+
+IDS_PROCESS_SEQ,Process Sequence.,가공 시퀀스.,가공시퀀스,動作状態
+
+IDS_WORK_TABLE_INIT,Init.,Init.,Init
+IDS_WORK_TABLE_POWER_METER_BACKWARD,Power Meter Backward,Power Meter Backward,Power Meter Backward
+IDS_WORK_TABLE_POWER_METER_BACKWARD_CHECK,Wait Power Meter Backward,Wait Power Meter Backward,Wait Power Meter Backward
+IDS_WORK_TABLE_INIT_END,Initialize Completed.,초기화 완료,Initialize completed.
+IDS_WORK_TABLE_GLASS_CHECK,Glass Check.,Glass Check.,Glass Check.
+IDS_WORK_TABLE_GLASS_MISMATCH,Glass Mismatch. Is glass on the table ? ,자재정보가 맞지 않습니다. 자재가 있습니까?,Glass Mismatch. Is glass on the table ?
+IDS_WORK_TABLE_JOB_SELECT,Job Select,작업 진행 선택, Job Select
+IDS_WORK_TABLE_RECV_READY,Recv-Ready,자재를 받을 준비 시작,Recv-Ready
+IDS_WORK_TABLE_RECV_VACUUM_OFF,Vacuum-Off,Vacuum-Off,Vacuum-Off
+IDS_WORK_TABLE_RECV_VACUUM_OFF_CHECK,Vacuum-Off Check,Vacuum-Off Check,Vacuum-Off Check
+IDS_WORK_TABLE_RECV_AIR_BLOW_OFF,Air-Blow Off,Air-Blow Off,Air-Blow Off
+IDS_WORK_TABLE_RECV_AIR_BLOW_OFF_CHECK,Air-Blow Off Check,Air-Blow Off Check,Air-Blow Off Check
+IDS_WORK_TABLE_RECV_Z1_Z2_POS_MOVE,Move To Z1,Z2 Wait Position.,Z1,Z2축을 대기 위치로 이동합니다.,,Move To Z1,Z2 Wait Position.
+IDS_WORK_TABLE_RECV_Z1_Z2_POS_CHECK,Wait until transfer is complete.(Z1,Z2 Wait Position),Z1,Z2축이 대기 위치까지 이동하기를 기다립니다.,Wait until transfer is complete.(Z1,Z2 Wait Position)
+IDS_WORK_TABLE_RECV_X1_X2_POS_MOVE,Move To X1,X2 Wait Position.,X1,X2축을 대기 위치로 이동합니다.,,Move To X1,X2 Wait Position.
+IDS_WORK_TABLE_RECV_X1_X2_POS_CHECK,Wait until transfer is complete.(X1,X2 Wait Position),Z1,Z2축이 대기 위치까지 이동하기를 기다립니다.,Wait until transfer is complete.(X1,X2 Wait Position)
+IDS_WORK_TABLE_RECV_Y_POS_MOVE,Move To Y Wait Position.,Y축을 대기 위치로 이동합니다.,Move To Y Wait Position.
+IDS_WORK_TABLE_RECV_Y_POS_CHECK,Wait until transfer is complete.(Y Wait Position),Y축이 대기 위치까지 이동하기를 기다립니다.,Wait until transfer is complete.(Y Wait Position)
+IDS_WORK_TABLE_RECV_T_POS_MOVE,Move To T Wait Position.,T축을 대기 위치로 이동합니다.,Move To T Wait Position.
+IDS_WORK_TABLE_RECV_T_POS_CHECK,Wait until transfer is complete.(T Wait Position),T축이 대기 위치까지 이동하기를 기다립니다.,Wait until transfer is complete.(T Wait Position)
+IDS_WORK_TABLE_RECV_ABLE,Recv-Able ,Recv-Able,Recv-Able 
+IDS_WORK_TABLE_WAIT_UPPER_SEND_ABLE,Wait Upper Send-Able,Wait Upper Send-Able,Wait Upper Send-Able
+IDS_WORK_TABLE_WAIT_UPPER_SEND_START,Wait Upper Send-Start,Wait Upper Send-Start,Wait Upper Send-Start
+IDS_WORK_TABLE_RECV_START,Recv-Start,Recv-Start,Recv-Start 
+IDS_WORK_TABLE_WAIT_UPPER_VACUUM_REQUEST,Wait Vacuum-ON Request Signal,Vacuum ON 신호 대기중.,Wait Vacuum-ON Request Signal
+IDS_WORK_TABLE_RECV_VACUUM_ON,Vacuum-ON,Vacuum-ON,Vacuum-ON
+IDS_WORK_TABLE_RECV_VACUUM_ON_CHECK,Vacuum-ON Check,Vacuum-ON Check,Vacuum-ON Check
+IDS_WORK_TABLE_WAIT_UPPER_DATA_SEND,Wait Sheet-ID & Infromation Send,Wait Sheet-ID & Infromation Send,Wait Sheet-ID & Infromation Send
+IDS_WORK_TABLE_WAIT_UPPER_SEND_COMPLETE,Wait Upper Send-Complete ,Wait Upper Send-Complete ,Wait Upper Send-Complete 
+IDS_WORK_TABLE_RECV_COMPLETE,Recv-Complete,Recv-Complete,Recv-Complete 
+IDS_WORK_TABLE_RECV_ABNORMAL,Abnormal Case Start.,Abnormal 케이스 시작.,Abnormal Case Start.
+IDS_WORK_TABLE_RECV_ABNORMAL_STATUS_CHECK,Abnormal Case Select.,Abnormal 상태 확인.,Abnormal Case Select
+IDS_WORK_TABLE_RECV_ABNORMAL_VACUUM_IS_ON,Abnormal Case #1 [Vacuum-ON],Abnormal Case #1 [Vacuum-ON],Abnormal Case #1 [Vacuum-ON]
+IDS_WORK_TABLE_RECV_ABNORMAL_AIR_BLOW_ON,Abnormal Case #2 [Blow-On],Abnormal Case #2 [Blow-On],Abnormal Case #2 [Blow-On]
+IDS_WORK_TABLE_RECV_ABNORMAL_AIR_BLOW_ON_CHECK,Abnormal Case #2 [Blow-On Check],Abnormal Case #2 [Blow-On Check],Abnormal Case #2 [Blow-On Check]
+IDS_WORK_TABLE_RECV_ABNORMAL_WAIT_INCOHERENCE_SIGNAL,Abnormal Case #2 [Wait Incoherence Signal],Abnormal Case #2 [비간섭 신호 완료까지 대기],Abnormal Case #2 [Wait Incoherence Signal]
+IDS_WORK_TABLE_RECV_ABNORMAL_AIR_BLOW_OFF,Abnormal Case #2 [Blow-Off].,Abnormal Case #2 [Blow-Off].,Abnormal Case #2 [Blow-Off]
+IDS_WORK_TABLE_RECV_ABNORMAL_AIR_BLOW_OFF_CHECK,Abnormal Case #2 [Blow-Off Check],Abnormal Case #2 [Blow-Off Check],Abnormal Case #2 [Blow-Off Check]
+IDS_WORK_TABLE_RECV_ABNORMAL_LOCAL_VACUUM_TIMEOUT,EQP Abnormal Case#1 [Vacuum-Timeout],EQP Abnormal Case#1 [Vacuum-Timeout],EQP Abnormal Case#1 [Vacuum-Timeout]
+IDS_WORK_TABLE_RECV_END,Recv End,Recv End,Recv End.
+IDS_WORK_TALBE_ALIGNMENT_READY,Alignment Sequence Start Point.,얼라인먼트 시퀀스 시작 알림.,アライメント Sequence Start Point.
+IDS_WORK_TALBE_ALIGNMENT_START,Alignment Start.,얼라인먼트 시작.,Alignment Start.
+IDS_WORK_TALBE_ALIGNMENT_COMPLETE,Wait Alignment Complete.,얼라인먼트 완료 대기중.,Wait アライメント Complete.
+IDS_WORK_TALBE_ALIGNMENT_END,Alignment Seuence End Point.,얼라인먼트 시퀀스 종료 알림.,アライメント Sequence End Point
+IDS_WORK_TALBE_PROCESS_READY,Process Sequence Start Point.,가공 시퀀스 시작 알림.,Process Sequence Start Point.
+IDS_WORK_TALBE_PROCESS_START,Process Start.,가공 시퀀스를 시작합니다.,Process Start.
+IDS_WORK_TALBE_PROCESS_COMPLETE,Wait Process Sequence Complete.,가공 시퀀스 완료 대기중.,Wait Process-Sequence Complete.
+IDS_WORK_TALBE_PROCESS_END,Process End.,가공 시퀀스가 종료 되었습니다.,加工動作完了.,
+
+IDS_WORK_TABLE_SEND_READY,Send-Ready,자재를 보낼 준비 시작,Send-Ready
+IDS_WORK_TABLE_SEND_Z1_Z2_POS_MOVE,Move To Z1,Z2 Wait Position.,Z1,Z2축을 대기 위치로 이동합니다.,Move To Z1,Z2 Wait Position.
+IDS_WORK_TABLE_SEND_Z1_Z2_POS_CHECK,Wait until transfer is complete.(Z1,Z2 Wait Position),Z1,Z2축이 대기 위치까지 이동하기를 기다립니다.,Wait until transfer is complete.(Z1,Z2 Wait Position)
+IDS_WORK_TABLE_SEND_X1_X2_POS_MOVE,Move To X1,X2 Wait Position.,X1,X2축을 대기 위치로 이동합니다.,Move To X1,X2 Wait Position.
+IDS_WORK_TABLE_SEND_X1_X2_POS_CHECK,Wait until transfer is complete.(X1,X2 Wait Position),Z1,Z2축이 대기 위치까지 이동하기를 기다립니다.,Wait until transfer is complete.(X1,X2 Wait Position)
+IDS_WORK_TABLE_SEND_T_POS_MOVE,Move To T Wait Position.,T축을 대기 위치로 이동합니다.,Move To T Wait Position.
+IDS_WORK_TABLE_SEND_T_POS_CHECK,Wait until transfer is complete.(T Wait Position),T축이 대기 위치까지 이동하기를 기다립니다.,Wait until transfer is complete.(T Wait Position)
+IDS_WORK_TABLE_SEND_Y_POS_MOVE,Move To Y Wait Position.,Y축을 대기 위치로 이동합니다.,Move To Y Wait Position.
+IDS_WORK_TABLE_SEND_Y_POS_CHECK,Wait until transfer is complete.(Y Wait Position),Y축이 대기 위치까지 이동하기를 기다립니다.,Wait until transfer is complete.(Y Wait Position)
+IDS_WORK_TABLE_SEND_ABLE,Send-Able ,Send-Able ,Send-Able 
+IDS_WORK_TABLE_WAIT_LOWER_RECV_ABLE,Wait Lower Recv-Able ,Wait Lower Recv-Able ,Wait Lower Recv-Able 
+IDS_WORK_TABLE_WAIT_LOWER_RECV_START,Wait Lower Recv-Start ,Wait Lower Recv-Start ,Wait Lower Recv-Start 
+IDS_WORK_TABLE_SEND_START,Send-Start ,Send-Start ,Send-Start 
+IDS_WORK_TABLE_WAIT_LOWER_VACUUM_REQUEST,Wait Vacuum-Off Request Signal,Vacuum-Off 신호 대기중.,Wait Vacuum-Off Request Signal
+IDS_WORK_TABLE_SEND_VACUUM_OFF,Vacuum-Off,Vacuum-Off,Vacuum-Off
+IDS_WORK_TABLE_SEND_VACUUM_OFF_CHECK,Vacuum-ff Check,Vacuum-Off Check,Vacuum-Off Check
+IDS_WORK_TABLE_WAIT_LOWER_DATA_SEND,Wait Sheet-ID & Infromation Recv,Wait Sheet-ID & Infromation Recv,Wait Sheet-ID & Infromation Recv
+IDS_WORK_TABLE_WAIT_LOWER_RECV_COMPLETE,Wait Lower Recv-Complete ,Wait Lower Recv-Complete ,Wait Lower Recv-Complete 
+IDS_WORK_TABLE_SEND_COMPLETE,Send-Complete ,Send-Complete ,Send-Complete 
+IDS_WORK_TABLE_SEND_ABNORMAL,Abnormal Case Start.,Abnormal 케이스 시작.,Abnormal Case Start.
+IDS_WORK_TABLE_SEND_ABNORMAL_STATUS_CHECK,Abnormal Case Select.,Abnormal 상태 확인.,Abnormal Case Select
+IDS_WORK_TABLE_SEND_ABNORMAL_VACUUM_IS_OFF,Abnormal Case #1 [Vacuum-Off],Abnormal Case #1 [Vacuum-Off],Abnormal Case #1 [Vacuum-Off]
+IDS_WORK_TABLE_SEND_ABNORMAL_AIR_BLOW_ON,Abnormal Case #2 [Blow-On],Abnormal Case #2 [Blow-On],Abnormal Case #2 [Blow-On]
+IDS_WORK_TABLE_SEND_ABNORMAL_AIR_BLOW_ON_CHECK,Abnormal Case #2 [Blow-On Check],Abnormal Case #2 [Blow-On Check],Abnormal Case #2 [Blow-On Check]
+IDS_WORK_TABLE_SEND_ABNORMAL_WAIT_INCOHERENCE_SIGNAL,Abnormal Case #2 [Wait Incoherence Signal],Abnormal Case #2 [비간섭 신호 완료까지 대기],Abnormal Case #2 [Wait Incoherence Signal]
+IDS_WORK_TABLE_SEND_ABNORMAL_AIR_BLOW_OFF,Abnormal Case #2 [Blow-Off].,Abnormal Case #2 [Blow-Off].,Abnormal Case #2 [Blow-Off]
+IDS_WORK_TABLE_SEND_ABNORMAL_AIR_BLOW_OFF_CHECK,Abnormal Case #2 [Blow-Off Check],Abnormal Case #2 [Blow-Off Check],Abnormal Case #2 [Blow-Off Check]
+IDS_WORK_TABLE_SEND_END,Send End,Send End,Send End.
+IDS_WORK_TABLE_END,Sequence End,시퀀스 종료,Sequence End
+
+IDS_APC,Auto-Power Control,Auto-Power Control,Auto-Power Control
+IDS_APS_PROCESS_START,Auto-Power Control Process Start.,자동 파워 밸런싱 조정을 시작합니다.,자동 파워 밸런싱 조정을 시작합니다.
+IDS_APS_POWER_CHECK_ERROR,Power Data Error.,파워 데이터 측정이 이루어지지 않았습니다.,파워 데이터 측정이 이루어지지 않았습니다.
+IDS_APS_LASER_PROGRAM_ERROR,Laser Status Error.,레이저 설정이 이루어지지 않았습니다.,레이저 설정이 이루어지지 않았습니다.
+IDS_APC_START,Start,Start,Start
+IDS_APC_START_CHECK,Status Check.,상태를 체크합니다.,Status Check.
+IDS_APC_READY_POWER_METER_BACKWARD,Power Meter Cylinder-Off,시작 전 파워미터 실린더를 OFF합니다.,시작 전 파워미터 실린더를 OFF 합니다.
+IDS_APC_READY_POWER_METER_BACKWARD_CHECK,Check Power Meter Cylinder-Off,시작 전 파워미터 실린더를 OFF 상태를 확인합니다.,시작 전 파워미터 실린더를 OFF 상탤를 확인합니다.
+IDS_APC_READY_WORK_TABLE_MOVE_TO,Work-Table Move.,시작 전 워크테이블의 위치를 언로딩 위치로 이동합니다.,시작 전 워크테이블의 위치를 언로딩 위치로 이동합니다.
+IDS_APC_READY_WORK_TABLE_CHECK,Work-Table Position Check.,시작 전 워크테이블이 언로딩 위치인지 확인합니다.,시작 전 워크테이블이 언로딩 위치인지 확인합니다.
+IDS_APC_READY_POWER_METER_FORWARD,Power Meter Cylinder-On,시작 전 파워미터 실린더를 ON 합니다.,시작 전 파워미터 실린더를 ON 합니다.
+IDS_APC_READY_POWER_METER_FORWARD_CHECK,Check Power Meter Cylinder-On,시작 전 파워미터 실린더를 ON 상태를 확인합니다.,시작 전 파워미터 실린더를 ON 상탤를 확인합니다.
+IDS_APC_POWER_SET,Ananlo Power Set. 레이저 파워를 설정합니다.,레이저 파워 값을  설정합니다.
+IDS_APC_MEASUREMENT_WAIT,Wait Measurement.,측정을 대기합니다.,측정을 대기합니다.
+IDS_APC_MEASUREMENT_START,Measurement Start.,측정을 시작합니다.,측정을 시작합니다.
+IDS_APC_MEASUREMENT_STOP,Measurement Stop.,측정을 중지합니다.,측정을 중지합니다.
+IDS_APC_MEASUREMENT_DATA_COMPARE,Data Stored.,데이터를 비교 중입니다.,데이터를 비교 중입니다.
+IDS_APC_ATTENUATOR_CONTROL,Attenuator Coltrol.,Attenuztor를 조정합니다.,Attenuztor를 조정합니다.
+IDS_APC_POWER_OFF,LASER-OFF.,레이저를 OFF합니다.,레이저를 OFF합니다.
+IDS_APC_POWER_OFF_CHECK,Check LASER-OFF.,레이저 OFF 상태를 확인합니다.,레이저 OFF 상태를 확인합니다.
+IDS_APC_POWER_METER_BACKWARD,Power Meter Cylinder-Off,파워미터 실린더를 OFF합니다.,파워미터 실린더를 OFF 합니다.
+IDS_APC_POWER_METER_BACKWARD_CHECK,Check Power Meter Cylinder-Off,파워미터 실린더를 OFF 상태를 확인합니다.,파워미터 실린더를 OFF 상탤를 확인합니다.
+IDS_APC_COMPLETED,Completed.,파워 밸런싱을 종료합니다.,파워 밸런싱을 종료합니다.
+IDS_APC_END,End,End,End

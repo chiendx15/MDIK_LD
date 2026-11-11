@@ -1,0 +1,6 @@
+#include "PLCStatus.hxx"
+
+T_UMAC_MOTOR_PARAMETER				MOTOR_PARAMETERs[eMOTOR_END];
+T_IO								io				;
+T_UMAC_MOTOR_STATUS					MOTOR_STATUSs	[eMOTOR_END];
+

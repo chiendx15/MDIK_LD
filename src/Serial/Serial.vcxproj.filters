@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0. 리소스 파일">
+      <UniqueIdentifier>{ffefa104-e52e-4f89-b1f7-59429b1d05c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. MFC_Framework">
+      <UniqueIdentifier>{ccbadafc-2dcc-443a-9fc4-75819e3f3002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. 참조파일">
+      <UniqueIdentifier>{86f4e694-9943-4ec5-8d18-77020ec3bccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. 공유메모리">
+      <UniqueIdentifier>{4297ee86-a7e5-4f03-a4f4-1879f1c1d6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Serial">
+      <UniqueIdentifier>{2b45248c-9f81-41d9-bf02-ad0659f41b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Serial\Inverter">
+      <UniqueIdentifier>{c97005d9-0880-4433-a8b0-28e1cc0ea0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Serial\PPBoxBarcodeReader">
+      <UniqueIdentifier>{1878a91e-5dd2-4347-9b51-3823d339bdf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Serial\DustCollector">
+      <UniqueIdentifier>{5e783581-fed5-4793-8446-fb80bb3213a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SharedFunction.h">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\SharedMemory.h">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DrawControl.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialDefines.h">
+      <Filter>4. Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Serial.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverter\Inverter.h">
+      <Filter>4. Serial\Inverter</Filter>
+    </ClInclude>
+    <ClInclude Include="PPBoxCodeReader\PPBoxCodeReaderProtocol.h">
+      <Filter>4. Serial\PPBoxBarcodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="PPBoxCodeReader\PPBoxCodeReaderWnd.h">
+      <Filter>4. Serial\PPBoxBarcodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SharedFunctionLoader.h">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="DustCollector\DustCollectorControlPanel.h">
+      <Filter>4. Serial\DustCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="DustCollector\DustCollectorPressure.h">
+      <Filter>4. Serial\DustCollector</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>1. MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>1. MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial.cpp">
+      <Filter>1. MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SharedFunction.cpp">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\DrawControl.cpp">
+      <Filter>2. 참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Serial.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverter\Inverter.cpp">
+      <Filter>4. Serial\Inverter</Filter>
+    </ClCompile>
+    <ClCompile Include="PPBoxCodeReader\PPBoxCodeReaderWnd.cpp">
+      <Filter>4. Serial\PPBoxBarcodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SharedFunctionLoader.cpp">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="DustCollector\DustCollectorControlPanel.cpp">
+      <Filter>4. Serial\DustCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="DustCollector\DustCollectorPressure.cpp">
+      <Filter>4. Serial\DustCollector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Serial.ico">
+      <Filter>0. 리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Serial.rc">
+      <Filter>0. 리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Serial.rc2">
+      <Filter>0. 리소스 파일</Filter>
+    </None>
+    <None Include=".editorconfig" />
+  </ItemGroup>
+</Project>

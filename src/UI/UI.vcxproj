@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{4BE8810E-2A36-4B09-8E9C-C00EE8F5CA0B}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>UI</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(SolutionDir)\Temp\$(Platform)\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(SolutionDir)\Temp\$(Platform)\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_MIP_AS_DLL;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>.\;$(PathMocha)include;$(SolutionDir)include;$(SolutionDir)data;C:\OpenCV\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(PathMocha)lib;$(SolutionDir)lib;C:\OpenCV\lib</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <StackReserveSize>10000000</StackReserveSize>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_MIP_AS_DLL;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>.\;$(PathMocha)include;$(SolutionDir)include;$(SolutionDir)data;C:\OpenCV\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(PathMocha)lib;$(SolutionDir)lib;C:\OpenCV\lib</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <StackReserveSize>10000000</StackReserveSize>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\data\ConveyorInfos.hxx" />
+    <ClInclude Include="..\..\data\DeviceParameter.hxx" />
+    <ClInclude Include="..\..\data\GlassEmissions.hxx" />
+    <ClInclude Include="..\..\data\Inline.hxx" />
+    <ClInclude Include="..\..\data\IOInfo_1_LD.hxx" />
+    <ClInclude Include="..\..\data\Mocha.hxx" />
+    <ClInclude Include="..\..\data\Mocha.type.hxx" />
+    <ClInclude Include="..\..\data\MotorInfos.hxx" />
+    <ClInclude Include="..\..\data\Online.hpp" />
+    <ClInclude Include="..\..\data\Online.hxx" />
+    <ClInclude Include="..\..\data\Option.hxx" />
+    <ClInclude Include="..\..\data\PLCStatus.hxx" />
+    <ClInclude Include="..\..\data\Sequence.hxx" />
+    <ClInclude Include="..\..\data\SharedMemory.h" />
+    <ClInclude Include="..\..\data\StringTable\StringTable_IO_1_LD.h" />
+    <ClInclude Include="..\..\include\CBSpeedListCtrl.h" />
+    <ClInclude Include="..\..\include\DrawControl.h" />
+    <ClInclude Include="..\..\include\MoveButtonStatus.h" />
+    <ClInclude Include="..\..\include\Recipe.h" />
+    <ClInclude Include="..\..\include\RecipeData.h" />
+    <ClInclude Include="..\..\include\SharedFunction.h" />
+    <ClInclude Include="..\..\include\SharedFunctionCIM.h" />
+    <ClInclude Include="..\..\include\SharedFunctionLoader.h" />
+    <ClInclude Include="ChangeParamDlg.h" />
+    <ClInclude Include="DrawControlTestWnd.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="IPCommand\CIMIPCommandWnd.h" />
+    <ClInclude Include="IPCommand\IPCommandWnd.h" />
+    <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="UserInterface\Main\AutoRunCheckerWnd.h" />
+    <ClInclude Include="UserInterface\Main\ExitWnd.h" />
+    <ClInclude Include="UserInterface\Main\InterlockMessageWnd.h" />
+    <ClInclude Include="UserInterface\Main\LogInWnd.h" />
+    <ClInclude Include="UserInterface\Main\MainMenuWnd.h" />
+    <ClInclude Include="UserInterface\Main\MainStatusWnd.h" />
+    <ClInclude Include="UserInterface\Main\MainStatus\InsertMaterialListWnd.h" />
+    <ClInclude Include="UserInterface\Main\MainStatus\ModuleStatusWnd.h" />
+    <ClInclude Include="UserInterface\Main\MainStatus\NumericKeypadWnd.h" />
+    <ClInclude Include="UserInterface\Main\MainStatus\ScrapeWnd.h" />
+    <ClInclude Include="UserInterface\Main\MessageHistoryWnd.h" />
+    <ClInclude Include="UserInterface\Main\OPCallMessageWnd.h" />
+    <ClInclude Include="UserInterface\Main\PassWordWnd.h" />
+    <ClInclude Include="UserInterface\Main\PMWnd.h" />
+    <ClInclude Include="UserInterface\Main\PopupMapWnd.h" />
+    <ClInclude Include="UserInterface\Main\PPBoxWnd.h" />
+    <ClInclude Include="UserInterface\Main\ProgramConnectionCheckerWnd.h" />
+    <ClInclude Include="UserInterface\Main\Simulator\DemoWnd.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\Simulator\Simulator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Main\SubMenuWnd.h" />
+    <ClInclude Include="UserInterface\Main\TerminalMessageWnd.h" />
+    <ClInclude Include="UserInterface\Main\TitleWnd.h" />
+    <ClInclude Include="UserInterface\Main\TPMCodeSelectWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\AGVPIOStatusWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\AirPressureWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\AlarmLogWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\ButtonLogWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\ConveyorMonitorWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\DustCollectorWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\GlassEmissionsWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\IOStatusWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\MCCWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\MCMonitorWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\ParameterChangeLogWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\RecipeChangeLogWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\RegisterViewer.h" />
+    <ClInclude Include="UserInterface\Menu\Maintenance\SequenceStepWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Manual\CIMTestWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Manual\IOControl.h" />
+    <ClInclude Include="UserInterface\Menu\Manual\PPBOXCodeReaderWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Manual\TeachModeConveyorWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Manual\TeachMoveWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Manual\TransferThetaMoveWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Parameter\ConveyorControl.h" />
+    <ClInclude Include="UserInterface\Menu\Parameter\ConveyorParameterWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Parameter\DeviceParameterWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Parameter\DeviceParameter\DeviceParameterDefaultWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Parameter\MotorControl.h" />
+    <ClInclude Include="UserInterface\Menu\Parameter\MotorParameterWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Parameter\PositionParameterWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Parameter\PositionParameter\Glass_load_trasnfer.h" />
+    <ClInclude Include="UserInterface\Menu\Parameter\PositionParameter\PPBox_EV.h" />
+    <ClInclude Include="UserInterface\Menu\Recipe\RecipeEditWnd.h" />
+    <ClInclude Include="UserInterface\Menu\Recipe\RecipeSelectWnd.h" />
+    <ClInclude Include="UserInterface\Menu\User\UserAddWnd.h" />
+    <ClInclude Include="UserInterface\Menu\User\UserManager.h" />
+    <ClInclude Include="UserInterface\Menu\User\UserManagerWnd.h" />
+    <ClInclude Include="UserInterface\Menu\User\UserModifyWnd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\data\ConveyorInfos.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\data\DeviceParameter.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\data\GlassEmissions.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Inline.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Mocha.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\data\MotorInfos.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\data\MotorPosition.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Online.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Option.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\data\PLCStatus.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\data\Sequence.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\include\CBSpeedListCtrl.cpp" />
+    <ClCompile Include="..\..\include\DrawControl.cpp" />
+    <ClCompile Include="..\..\include\MoveButtonStatus.cpp" />
+    <ClCompile Include="..\..\include\SharedFunction.cpp" />
+    <ClCompile Include="..\..\include\SharedFunctionCIM.cpp" />
+    <ClCompile Include="..\..\include\SharedFunctionLoader.cpp" />
+    <ClCompile Include="ChangeParamDlg.cpp" />
+    <ClCompile Include="DrawControlTestWnd.cpp" />
+    <ClCompile Include="IPCommand\CIMIPCommandWnd.cpp" />
+    <ClCompile Include="IPCommand\IPCommandWnd.cpp" />
+    <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="UserInterface\Main\AutoRunCheckerWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\ExitWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\InterlockMessageWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\LogInWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\MainMenuWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\MainStatusWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\MainStatus\InsertMaterialListWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\MainStatus\ModuleStatusWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\MainStatus\NumericKeypadWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\MainStatus\ScrapeWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\MessageHistoryWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\OPCallMessageWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\PassWordWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\PMWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\PopupMapWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\PPBoxWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\ProgramConnectionCheckerWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\Simulator\DemoWnd.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\Simulator\Simulator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Main\SubMenuWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\TerminalMessageWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\TitleWnd.cpp" />
+    <ClCompile Include="UserInterface\Main\TPMCodeSelectWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\AGVPIOStatusWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\AirPressureWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\AlarmLogWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\ButtonLogWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\ConveyorMonitorWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\DustCollectorWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\GlassEmissionsWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\IOStatusWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\MCCWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\MCMonitorWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\ParameterChangeLogWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\RecipeChangeLogWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\RegisterViewer.cpp" />
+    <ClCompile Include="UserInterface\Menu\Maintenance\SequenceStepWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Manual\CIMTestWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Manual\IOControl.cpp" />
+    <ClCompile Include="UserInterface\Menu\Manual\PPBOXCodeReaderWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Manual\TeachModeConveyorWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Manual\TeachMoveWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Manual\TransferThetaMoveWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Parameter\ConveyorControl.cpp" />
+    <ClCompile Include="UserInterface\Menu\Parameter\ConveyorParameterWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Parameter\DeviceParameterWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Parameter\DeviceParameter\DeviceParameterDefaultWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Parameter\MotorControl.cpp" />
+    <ClCompile Include="UserInterface\Menu\Parameter\MotorParameterWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Parameter\PositionParameterWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Parameter\PositionParameter\Glass_load_trasnfer.cpp" />
+    <ClCompile Include="UserInterface\Menu\Parameter\PositionParameter\PPBox_EV.cpp" />
+    <ClCompile Include="UserInterface\Menu\Recipe\RecipeEditWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\Recipe\RecipeSelectWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\User\UserAddWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\User\UserManager.cpp" />
+    <ClCompile Include="UserInterface\Menu\User\UserManagerWnd.cpp" />
+    <ClCompile Include="UserInterface\Menu\User\UserModifyWnd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\UI.ico" />
+    <Image Include="res\UIDoc.ico" />
+    <Image Include="res\userimages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\cfg\misc.ini" />
+    <None Include="..\..\cfg\Mocha.ini" />
+    <None Include="res\UI.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

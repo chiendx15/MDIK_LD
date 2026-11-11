@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0. 리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="1. MFC_Framework">
+      <UniqueIdentifier>{cd2dca4f-ef14-496f-a5c0-4bba2750b1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. 참조파일">
+      <UniqueIdentifier>{ca99b9ca-8441-497a-ad43-44b641f8b050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. 공유메모리">
+      <UniqueIdentifier>{c6a37b8b-2fc6-474e-80fc-b8194756b61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. DataTransfer">
+      <UniqueIdentifier>{67d27363-0a7f-4fe3-878b-23c30c4b70c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Torque">
+      <UniqueIdentifier>{3122877c-7d35-4951-8e45-764e0279916f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. DustCollector">
+      <UniqueIdentifier>{13b9f507-d6fa-4c8c-b207-e46f850ea6b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7. FDC">
+      <UniqueIdentifier>{394d728f-bdc7-4cc7-8bc2-5fed84bc11c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildView.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTransfer.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>1. MFC_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\DeviceParameter.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Inline.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Mocha.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\MotorInfos.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\MotorPosition_1.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\MotorPosition_2.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\MotorPosition_3.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\MotorPosition_4.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Online.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\PLCStatus.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\Sequence.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\SharedMemory.h">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\SystemParameter.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SharedFunction.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleServer.h">
+      <Filter>4. DataTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleClient.h">
+      <Filter>4. DataTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\data\IOInfo.hxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SharedFunctionLoader.h">
+      <Filter>2. 참조파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TorqueClient.h">
+      <Filter>5. Torque</Filter>
+    </ClInclude>
+    <ClInclude Include="DustCollectorClient.h">
+      <Filter>6. DustCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="FDCClient.h">
+      <Filter>7. FDC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>1. MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>1. MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTransfer.cpp">
+      <Filter>1. MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>1. MFC_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SharedFunction.cpp">
+      <Filter>2. 참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleServer.cpp">
+      <Filter>4. DataTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleClient.cpp">
+      <Filter>4. DataTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\data\IOInfo.cxx">
+      <Filter>3. 공유메모리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SharedFunctionLoader.cpp">
+      <Filter>2. 참조파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TorqueClient.cpp">
+      <Filter>5. Torque</Filter>
+    </ClCompile>
+    <ClCompile Include="DustCollectorClient.cpp">
+      <Filter>6. DustCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="FDCClient.cpp">
+      <Filter>7. FDC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DataTransfer.rc">
+      <Filter>0. 리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DataTransfer.rc2">
+      <Filter>0. 리소스 파일</Filter>
+    </None>
+    <None Include="..\..\cfg\AddressInfo.ini">
+      <Filter>2. 참조파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DataTransfer.ico">
+      <Filter>0. 리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>0. 리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
